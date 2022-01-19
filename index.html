@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://unpkg.com/survey-jquery@1.8.21/modern.css" type="text/css" rel="stylesheet" />
-    <title>SurveyJS and Google Sheets example</title>
+    <title>TOP 50</title>
   </head>
   <body>
 <!-- Button trigger modal -->
@@ -18,18 +18,20 @@
   <main role="main" class="container">
 
 	<div>
-	  <h1>SurveyJS and Google Sheets demo</h1>
-	  <p class="lead">This is example website.</p>
-	   <a href="https://boardgamegeek.com/boardgame/167791/terraforming-mars"><img src="images/terraformacja_marsa.jpg" alt="Terraformacja Marsa" style="width:500px;"> </a>
-	  <p> More information: <a href="https://towardsdatascience.com/how-to-create-online-survey-for-free-with-surveyjs-and-google-sheets-d9a782d0f458" target="_blank">How to create online survey for free with SurveyJS and Google Sheets</a></p>
+	  <h1>TOP 50 Gier Wszechczasów (2022)</h1>
+	  <br><img src="images/games/275_TM.jpg" alt="Terraformacja Marsa" style="width:500px;">
+	  <p class="lead"><br>Zapraszamy do udziału w naszej zabawie! Aby rozpocząć wybierz odpowiedni przycisk poniżej.</p>
+	  
 	  <p><button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-		Launch demo survey
+		NOMINACJE
 	  </button></p>
-	  <p><a href="https://docs.google.com/spreadsheets/d/1N2dqkzZvW0UFkY8Pi5blR1C3qE0Dj_NAJv2xYuxkqMg/edit?usp=sharing" class="btn btn-info" target="_blank">
-		Results in Google Sheets
-	</a></p>
-	</div>
-  
+	  
+	  <p><button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+		GŁOSOWANIE - ETAP 1
+	  </button></p>
+	  
+
+ 
   </main><!-- /.container -->
   
   <!-- Modal -->
@@ -56,8 +58,12 @@
 	
 	<script>
 	Survey.StylesManager.applyTheme("modern");
+	//survey.firstPageIsStarted = true;
 
-var surveyJSON = {"pages":[{"name":"TOP50 Ankieta","elements":[{"type":"panel","name":"Terraformacja_Marsa","elements":[{"type":"html","name":"HTMLimage_TM","html":"<a href=\"https://boardgamegeek.com/boardgame/167791/terraforming-mars\" target=\"_blank\"><img src=\"images/terraformacja_marsa.jpg\" alt=\"Terraformacja Marsa\" style=\"width:440px;\"> </a>"},{"type":"imagepicker","name":"Terraformacja_Marsa","titleLocation":"hidden","defaultValue":"x","isRequired":true,"choices":[{"value":"t1","imageLink":"images/icons/1_mini.png"},{"value":"t2","imageLink":"images/icons/2_mini.png"},{"value":"t3","imageLink":"images/icons/3_mini.png"},{"value":"t4","imageLink":"images/icons/4_mini.png"},{"value":"t5","imageLink":"images/icons/5_mini.png"},{"value":"x","imageLink":"images/icons/x_mini.png"}],"imageHeight":50,"imageWidth":50}],"title":"Terraformacja Marsa","isRequired":true,"showNumber":true}],"title":"TOP 50 Gier Wszechczasów (2022)"}]}
+var surveyJSON =  {"pages":[{"name":"TOP50 Ankieta","elements":[{"type":"panel","name":"Terraformacja_Marsa","elements":[{"type":"html","name":"HTMLimage_TM","html":"<a href=\"https://boardgamegeek.com/boardgame/167791/terraforming-mars\" target=\"_blank\"><img src=\"images/games/275_TM.jpg\" alt=\"Terraformacja Marsa\" style=\"width:500px;\"> </a>"},{"type":"imagepicker","name":"Terraformacja_Marsaa","titleLocation":"hidden","defaultValue":"x","isRequired":true,"choices":[{"value":"t1","imageLink":"images/icons/1_mini.png"},{"value":"t2","imageLink":"images/icons/2_mini.png"},{"value":"t3","imageLink":"images/icons/3_mini.png"},{"value":"t4","imageLink":"images/icons/4_mini.png"},{"value":"t5","imageLink":"images/icons/5_mini.png"},{"value":"x","imageLink":"images/icons/x_mini.png"}],"imageHeight":50,"imageWidth":50}],"title":"Terraformacja Marsa","isRequired":true,"showNumber":true},{"type":"panel","name":"panel1","elements":[{"type":"html","name":"question1","html":"<a href=\"https://boardgamegeek.com/boardgame/167791/terraforming-mars\" target=\"_blank\"><img src=\"images/games/246_SI.jpg\" alt=\"Terraformacja Marsa\" style=\"width:500px;\"> </a>"},{"type":"imagepicker","name":"test","titleLocation":"hidden","defaultValue":"x","isRequired":true,"choices":[{"value":"t1","imageLink":"images/icons/1_mini.png"},{"value":"t2","imageLink":"images/icons/2_mini.png"},{"value":"t3","imageLink":"images/icons/3_mini.png"},{"value":"t4","imageLink":"images/icons/4_mini.png"},{"value":"t5","imageLink":"images/icons/5_mini.png"},{"value":"x","imageLink":"images/icons/x_mini.png"}],"imageHeight":50,"imageWidth":50}],"title":"Terraformacja Marsa","isRequired":true,"showNumber":true}],"title":"TOP 50 Gier Wszechczasów (2022)"}]}
+
+
+//survey.firstPageIsStarted = true;
 
 function sendDataToServer(survey) {
     //send Ajax request to your web server.
@@ -65,6 +71,7 @@ function sendDataToServer(survey) {
 }
 
 var survey = new Survey.Model(surveyJSON);
+
 $("#surveyContainer").Survey({
     model: survey,
     onComplete: sendDataToServer
