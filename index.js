@@ -7,6 +7,11 @@ var surveyJSON =  {
   "locale": "pl",
   "elements": [
     {
+		"name": "osoba",
+		"title": "Imię/nick:",
+		"type": "text"
+    },
+    {
       "name": "N1",
       "title": "Nominacja:",
       "type": "text",
