@@ -4,6 +4,7 @@
 
 
 var surveyJSON =  {
+  "locale": "pl",
   "elements": [
     {
       "name": "N1",
