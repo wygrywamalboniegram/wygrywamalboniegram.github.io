@@ -1,0 +1,2862 @@
+
+	Survey.StylesManager.applyTheme("defaultV2");
+	//survey.firstPageIsStarted = true;
+
+
+var surveyJSON =  {
+	"locale": "pl",
+	"title":"TOP 50 Gier Wszechczasów (2022)",
+	"showProgressBar": "top",
+	"pages":[
+//page 1
+		{
+			"name":"TOP50 Ankieta",
+			"title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
+			"elements":[
+				{
+				"name": "osoba",
+				"title": "Imię/nick:",
+				"isRequired":true,
+				 "hideNumber": true,
+				"type": "text"
+				},
+				{
+					"type":"panel",
+					"name":"18XX",
+					"title":"18XX (seria)",
+					"isRequired":true,
+					"questionsOrder": "initial",
+					"showNumber":true,
+					"elements":[
+					{
+					 "type":"html",
+					 "name":"1_image",
+					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/19/series-18xx\" target=\"_blank\"><img src=\"images/games/1_18XX.jpg\" alt=\"18XX (seria)\" style=\"width:500px;\"> </a>"
+					},
+					{
+					 "type":"imagepicker",
+					 "name":"1",
+					 "titleLocation":"hidden",
+					 "defaultValue":"x",
+					 "isRequired":true,
+					 "choices":[
+					  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+					  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+					  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+					 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+					  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+					  {"value":"x","imageLink":"images/icons/x_mini.png"}
+					 ],
+					 "imageHeight":50,
+					 "imageWidth":50
+					},
+					{
+					  "type": "boolean",
+					  "indent": "15",
+					  "name": "1_nextyear",
+					  "title": "Chcesz ocenić tę grę za rok?",
+					  "titleLocation": "default",
+					  "labelTrue": "TAK",
+					  "labelFalse": "NIE",
+					  "defaultValue": true,
+					  "visibleIf": "{1} = 'x'",
+					  "hideNumber": true
+					}
+					
+				   ]
+					
+				  },
+				  {
+					"type":"panel",
+					"name":"Kto_Da_Wiecej",
+					"title":"Kto Da Więcej?",
+					"isRequired":true,
+					"questionsOrder": "initial",
+					"showNumber":true,
+					"elements":[
+					{
+					 "type":"html",
+					 "name":"268_image",
+					 "html":"<a href=\"BRAK NA BGG\" target=\"_blank\"><img src=\"images/games/268_Kto_Da_Wiecej.jpg\" alt=\"Kto Da Więcej?\" style=\"width:500px;\"> </a>"
+					},
+					{
+					 "type":"imagepicker",
+					 "name":"268",
+					 "titleLocation":"hidden",
+					 "defaultValue":"x",
+					 "isRequired":true,
+					 "choices":[
+					  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+					  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+					  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+					 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+					  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+					  {"value":"x","imageLink":"images/icons/x_mini.png"}
+					 ],
+					 "imageHeight":50,
+					 "imageWidth":50
+					},
+					{
+					  "type": "boolean",
+					  "indent": "15",
+					  "name": "268_nextyear",
+					  "title": "Chcesz ocenić tę grę za rok?",
+					  "titleLocation": "default",
+					  "labelTrue": "TAK",
+					  "labelFalse": "NIE",
+					  "defaultValue": true,
+					  "visibleIf": "{268} = 'x'",
+					  "hideNumber": true
+					}
+					
+				   ]
+					
+				  },
+				  {
+					"type":"panel",
+					"name":"Pandemic",
+					"title":"Pandemic (seria)",
+					"isRequired":true,
+					"questionsOrder": "initial",
+					"showNumber":true,
+					"elements":[
+					{
+					 "type":"html",
+					 "name":"189_image",
+					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/3430/game-pandemic\" target=\"_blank\"><img src=\"images/games/189_Pandemic.jpg\" alt=\"Pandemic (seria)\" style=\"width:500px;\"> </a>"
+					},
+					{
+					 "type":"imagepicker",
+					 "name":"189",
+					 "titleLocation":"hidden",
+					 "defaultValue":"x",
+					 "isRequired":true,
+					 "choices":[
+					  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+					  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+					  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+					 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+					  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+					  {"value":"x","imageLink":"images/icons/x_mini.png"}
+					 ],
+					 "imageHeight":50,
+					 "imageWidth":50
+					},
+					{
+					  "type": "boolean",
+					  "indent": "15",
+					  "name": "189_nextyear",
+					  "title": "Chcesz ocenić tę grę za rok?",
+					  "titleLocation": "default",
+					  "labelTrue": "TAK",
+					  "labelFalse": "NIE",
+					  "defaultValue": true,
+					  "visibleIf": "{189} = 'x'",
+					  "hideNumber": true
+					}
+					
+				   ]
+					
+				  },
+				  {
+					"type":"panel",
+					"name":"Blackout_HK",
+					"title":"Blackout: Hong Kong",
+					"isRequired":true,
+					"questionsOrder": "initial",
+					"showNumber":true,
+					"elements":[
+					{
+					 "type":"html",
+					 "name":"27_image",
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/262215/blackout-hong-kong\" target=\"_blank\"><img src=\"images/games/27_Blackout_HK.jpg\" alt=\"Blackout: Hong Kong\" style=\"width:500px;\"> </a>"
+					},
+					{
+					 "type":"imagepicker",
+					 "name":"27",
+					 "titleLocation":"hidden",
+					 "defaultValue":"x",
+					 "isRequired":true,
+					 "choices":[
+					  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+					  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+					  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+					 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+					  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+					  {"value":"x","imageLink":"images/icons/x_mini.png"}
+					 ],
+					 "imageHeight":50,
+					 "imageWidth":50
+					},
+					{
+					  "type": "boolean",
+					  "indent": "15",
+					  "name": "27_nextyear",
+					  "title": "Chcesz ocenić tę grę za rok?",
+					  "titleLocation": "default",
+					  "labelTrue": "TAK",
+					  "labelFalse": "NIE",
+					  "defaultValue": true,
+					  "visibleIf": "{27} = 'x'",
+					  "hideNumber": true
+					}
+					
+				   ]
+					
+				  },
+				  {
+					"type":"panel",
+					"name":"Wendake",
+					"title":"Wendake",
+					"isRequired":true,
+					"questionsOrder": "initial",
+					"showNumber":true,
+					"elements":[
+					{
+					 "type":"html",
+					 "name":"299_image",
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/229265/wendake\" target=\"_blank\"><img src=\"images/games/299_Wendake.jpg\" alt=\"Wendake\" style=\"width:500px;\"> </a>"
+					},
+					{
+					 "type":"imagepicker",
+					 "name":"299",
+					 "titleLocation":"hidden",
+					 "defaultValue":"x",
+					 "isRequired":true,
+					 "choices":[
+					  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+					  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+					  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+					 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+					  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+					  {"value":"x","imageLink":"images/icons/x_mini.png"}
+					 ],
+					 "imageHeight":50,
+					 "imageWidth":50
+					},
+					{
+					  "type": "boolean",
+					  "indent": "15",
+					  "name": "299_nextyear",
+					  "title": "Chcesz ocenić tę grę za rok?",
+					  "titleLocation": "default",
+					  "labelTrue": "TAK",
+					  "labelFalse": "NIE",
+					  "defaultValue": true,
+					  "visibleIf": "{299} = 'x'",
+					  "hideNumber": true
+					}
+					
+				   ]
+					
+				  },
+				  {
+					"type":"panel",
+					"name":"Epoka_Kamienia",
+					"title":"Epoka Kamienia",
+					"isRequired":true,
+					"questionsOrder": "initial",
+					"showNumber":true,
+					"elements":[
+					{
+					 "type":"html",
+					 "name":"78_image",
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/34635/stone-age\" target=\"_blank\"><img src=\"images/games/78_Epoka_Kamienia.jpg\" alt=\"Epoka Kamienia\" style=\"width:500px;\"> </a>"
+					},
+					{
+					 "type":"imagepicker",
+					 "name":"78",
+					 "titleLocation":"hidden",
+					 "defaultValue":"x",
+					 "isRequired":true,
+					 "choices":[
+					  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+					  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+					  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+					 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+					  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+					  {"value":"x","imageLink":"images/icons/x_mini.png"}
+					 ],
+					 "imageHeight":50,
+					 "imageWidth":50
+					},
+					{
+					  "type": "boolean",
+					  "indent": "15",
+					  "name": "78_nextyear",
+					  "title": "Chcesz ocenić tę grę za rok?",
+					  "titleLocation": "default",
+					  "labelTrue": "TAK",
+					  "labelFalse": "NIE",
+					  "defaultValue": true,
+					  "visibleIf": "{78} = 'x'",
+					  "hideNumber": true
+					}
+					
+				   ]
+					
+				  },
+				  {
+					"type":"panel",
+					"name":"Scotland_Yard",
+					"title":"Scotland Yard",
+					"isRequired":true,
+					"questionsOrder": "initial",
+					"showNumber":true,
+					"elements":[
+					{
+					 "type":"html",
+					 "name":"232_image",
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/438/scotland-yard\" target=\"_blank\"><img src=\"images/games/232_Scotland_Yard.jpg\" alt=\"Scotland Yard\" style=\"width:500px;\"> </a>"
+					},
+					{
+					 "type":"imagepicker",
+					 "name":"232",
+					 "titleLocation":"hidden",
+					 "defaultValue":"x",
+					 "isRequired":true,
+					 "choices":[
+					  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+					  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+					  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+					 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+					  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+					  {"value":"x","imageLink":"images/icons/x_mini.png"}
+					 ],
+					 "imageHeight":50,
+					 "imageWidth":50
+					},
+					{
+					  "type": "boolean",
+					  "indent": "15",
+					  "name": "232_nextyear",
+					  "title": "Chcesz ocenić tę grę za rok?",
+					  "titleLocation": "default",
+					  "labelTrue": "TAK",
+					  "labelFalse": "NIE",
+					  "defaultValue": true,
+					  "visibleIf": "{232} = 'x'",
+					  "hideNumber": true
+					}
+					
+				   ]
+					
+				  },
+				  {
+					"type":"panel",
+					"name":"5Sekund",
+					"title":"5 sekund",
+					"isRequired":true,
+					"questionsOrder": "initial",
+					"showNumber":true,
+					"elements":[
+					{
+					 "type":"html",
+					 "name":"2_image",
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/86073/5-second-rule\" target=\"_blank\"><img src=\"images/games/2_5Sekund.jpg\" alt=\"5 sekund\" style=\"width:500px;\"> </a>"
+					},
+					{
+					 "type":"imagepicker",
+					 "name":"2",
+					 "titleLocation":"hidden",
+					 "defaultValue":"x",
+					 "isRequired":true,
+					 "choices":[
+					  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+					  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+					  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+					 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+					  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+					  {"value":"x","imageLink":"images/icons/x_mini.png"}
+					 ],
+					 "imageHeight":50,
+					 "imageWidth":50
+					},
+					{
+					  "type": "boolean",
+					  "indent": "15",
+					  "name": "2_nextyear",
+					  "title": "Chcesz ocenić tę grę za rok?",
+					  "titleLocation": "default",
+					  "labelTrue": "TAK",
+					  "labelFalse": "NIE",
+					  "defaultValue": true,
+					  "visibleIf": "{2} = 'x'",
+					  "hideNumber": true
+					}
+					
+				   ]
+					
+				  },
+				  {
+					"type":"panel",
+					"name":"SW_Rebelia",
+					"title":"Star Wars: Rebelia",
+					"isRequired":true,
+					"questionsOrder": "initial",
+					"showNumber":true,
+					"elements":[
+					{
+					 "type":"html",
+					 "name":"338_image",
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/187645/star-wars-rebellion\" target=\"_blank\"><img src=\"images/games/338_SW_Rebelia.jpg\" alt=\"Star Wars: Rebelia\" style=\"width:500px;\"> </a>"
+					},
+					{
+					 "type":"imagepicker",
+					 "name":"338",
+					 "titleLocation":"hidden",
+					 "defaultValue":"x",
+					 "isRequired":true,
+					 "choices":[
+					  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+					  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+					  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+					 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+					  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+					  {"value":"x","imageLink":"images/icons/x_mini.png"}
+					 ],
+					 "imageHeight":50,
+					 "imageWidth":50
+					},
+					{
+					  "type": "boolean",
+					  "indent": "15",
+					  "name": "338_nextyear",
+					  "title": "Chcesz ocenić tę grę za rok?",
+					  "titleLocation": "default",
+					  "labelTrue": "TAK",
+					  "labelFalse": "NIE",
+					  "defaultValue": true,
+					  "visibleIf": "{338} = 'x'",
+					  "hideNumber": true
+					}
+					
+				   ]
+					
+				  },
+				  {
+					"type":"panel",
+					"name":"EXIT",
+					"title":"EXIT (seria)",
+					"isRequired":true,
+					"questionsOrder": "initial",
+					"showNumber":true,
+					"elements":[
+					{
+					 "type":"html",
+					 "name":"82_image",
+					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/36963/series-exit-game\" target=\"_blank\"><img src=\"images/games/82_EXIT.jpg\" alt=\"EXIT (seria)\" style=\"width:500px;\"> </a>"
+					},
+					{
+					 "type":"imagepicker",
+					 "name":"82",
+					 "titleLocation":"hidden",
+					 "defaultValue":"x",
+					 "isRequired":true,
+					 "choices":[
+					  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+					  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+					  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+					 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+					  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+					  {"value":"x","imageLink":"images/icons/x_mini.png"}
+					 ],
+					 "imageHeight":50,
+					 "imageWidth":50
+					},
+					{
+					  "type": "boolean",
+					  "indent": "15",
+					  "name": "82_nextyear",
+					  "title": "Chcesz ocenić tę grę za rok?",
+					  "titleLocation": "default",
+					  "labelTrue": "TAK",
+					  "labelFalse": "NIE",
+					  "defaultValue": true,
+					  "visibleIf": "{82} = 'x'",
+					  "hideNumber": true
+					}
+					
+				   ]
+					
+				  }
+			]
+
+		},
+//page 2		
+		{
+		   "name":"TOP50 Ankieta",
+		   "title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
+		   "elements":[
+		   {
+				"type":"panel",
+				"name":"Glen_More_II",
+				"title":"Glen More II: Kroniki",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"348_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/265188/glen-more-ii-chronicles\" target=\"_blank\"><img src=\"images/games/348_Glen_More_II.jpg\" alt=\"Glen More II: Kroniki\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"348",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "348_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{348} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Alhambra",
+				"title":"Alhambra",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"13_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/3431/game-alhambra\" target=\"_blank\"><img src=\"images/games/13_Alhambra.jpg\" alt=\"Alhambra\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"13",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "13_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{13} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Sprawdzian",
+				"title":"Sprawdzian",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"248_image",
+				 "html":"<a href=\"BRAK NA BGG\" target=\"_blank\"><img src=\"images/games/248_Sprawdzian.jpg\" alt=\"Sprawdzian\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"248",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "248_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{248} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Martwa_Zima",
+				"title":"Martwa Zima: Gra Rozdroży",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"156_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/150376/dead-winter-crossroads-game\" target=\"_blank\"><img src=\"images/games/156_Martwa_Zima.jpg\" alt=\"Martwa Zima: Gra Rozdroży\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"156",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "156_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{156} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Detektyw_Doradczy",
+				"title":"Sherlock Holmes: Detektyw doradczy",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"237_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/204305/sherlock-holmes-consulting-detective-jack-ripper-w\" target=\"_blank\"><img src=\"images/games/237_Detektyw_Doradczy.jpg\" alt=\"Sherlock Holmes: Detektyw doradczy\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"237",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "237_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{237} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"ICECOOL",
+				"title":"ICECOOL",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"110_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/177524/icecool\" target=\"_blank\"><img src=\"images/games/110_ICECOOL.jpg\" alt=\"ICECOOL\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"110",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "110_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{110} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Pizza_XXL",
+				"title":"Pizza XXL",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"202_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/156930/pizza-xxl\" target=\"_blank\"><img src=\"images/games/202_Pizza_XXL.jpg\" alt=\"Pizza XXL\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"202",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "202_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{202} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"PartyTura",
+				"title":"PARTYtura",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"194_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/321951/partytura\" target=\"_blank\"><img src=\"images/games/194_PartyTura.jpg\" alt=\"PARTYtura\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"194",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "194_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{194} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Walking_Dead",
+				"title":"The Walking Dead: Card Game",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"279_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/136117/walking-dead-card-game\" target=\"_blank\"><img src=\"images/games/279_Walking_Dead.jpg\" alt=\"The Walking Dead: Card Game\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"279",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "279_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{279} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"GWT",
+				"title":"Great Western Trail",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"102_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/193738/great-western-trail\" target=\"_blank\"><img src=\"images/games/102_GWT.jpg\" alt=\"Great Western Trail\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"102",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "102_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{102} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  
+		   ]
+		},
+//page 3		
+			{
+		   "name":"TOP50 Ankieta",
+		   "title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
+		   "elements":[
+		   {
+				"type":"panel",
+				"name":"Bankrut",
+				"title":"Bankrut",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"21_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/5393/wheedle\" target=\"_blank\"><img src=\"images/games/21_Bankrut.jpg\" alt=\"Bankrut\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"21",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "21_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{21} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"OM",
+				"title":"On Mars",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"182_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/184267/mars\" target=\"_blank\"><img src=\"images/games/182_OM.jpg\" alt=\"On Mars\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"182",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "182_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{182} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Newton",
+				"title":"Newton",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"170_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/244711/newton\" target=\"_blank\"><img src=\"images/games/170_Newton.jpg\" alt=\"Newton\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"170",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "170_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{170} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Bridge",
+				"title":"Brydż",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"33_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/2181/bridge\" target=\"_blank\"><img src=\"images/games/33_Bridge.jpg\" alt=\"Brydż\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"33",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "33_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{33} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Scythe",
+				"title":"Scythe",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"234_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/169786/scythe\" target=\"_blank\"><img src=\"images/games/234_Scythe.jpg\" alt=\"Scythe\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"234",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "234_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{234} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Imperial_2030",
+				"title":"Imperial 2030",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"113_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/54138/imperial-2030\" target=\"_blank\"><img src=\"images/games/113_Imperial_2030.jpg\" alt=\"Imperial 2030\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"113",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "113_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{113} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Tajniacy",
+				"title":"Tajniacy (seria)",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"267_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/37062/game-codenames\" target=\"_blank\"><img src=\"images/games/267_Tajniacy.jpg\" alt=\"Tajniacy (seria)\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"267",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "267_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{267} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Ogrodek",
+				"title":"Ogródek",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"181_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/204027/cottage-garden\" target=\"_blank\"><img src=\"images/games/181_Ogrodek.jpg\" alt=\"Ogródek\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"181",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "181_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{181} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Belfort",
+				"title":"Belfort",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"23_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/50750/belfort\" target=\"_blank\"><img src=\"images/games/23_Belfort.jpg\" alt=\"Belfort\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"23",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "23_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{23} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Zgadnij_Kto",
+				"title":"Zgadnij kto to?",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"324_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/4143/guess-who\" target=\"_blank\"><img src=\"images/games/324_Zgadnij_Kto.jpg\" alt=\"Zgadnij kto to?\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"324",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "324_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{324} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  
+		   ]
+		},
+//page 4
+		{
+		   "name":"TOP50 Ankieta",
+		   "title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
+		   "elements":[
+		   {
+				"type":"panel",
+				"name":"Sigismundus",
+				"title":"Sigismundus Augustus: Dei gratia rex Poloniae",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"239_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/133534/sigismundus-augustus-dei-gratia-rex-poloniae\" target=\"_blank\"><img src=\"images/games/239_Sigismundus.jpg\" alt=\"Sigismundus Augustus: Dei gratia rex Poloniae\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"239",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "239_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{239} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Ciasteczkowe_potworki",
+				"title":"Ciasteczkowe potworki",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"42_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/179794/me-want-cookies\" target=\"_blank\"><img src=\"images/games/42_Ciasteczkowe_potworki.jpg\" alt=\"Ciasteczkowe potworki\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"42",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "42_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{42} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Tainted_Grail",
+				"title":"Tainted Grail",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"333_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/264220/tainted-grail-fall-avalon\" target=\"_blank\"><img src=\"images/games/333_Tainted_Grail.jpg\" alt=\"Tainted Grail\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"333",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "333_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{333} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Black_Angel",
+				"title":"Black Angel",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"25_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/230244/black-angel\" target=\"_blank\"><img src=\"images/games/25_Black_Angel.jpg\" alt=\"Black Angel\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"25",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "25_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{25} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Hobbit",
+				"title":"Hobbit: Gra Karciana",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"108_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/126444/hobbit-card-game\" target=\"_blank\"><img src=\"images/games/108_Hobbit.jpg\" alt=\"Hobbit: Gra Karciana\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"108",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "108_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{108} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Magazyn51",
+				"title":"Magazyn 51",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"148_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/177702/warehouse-51\" target=\"_blank\"><img src=\"images/games/148_Magazyn51.jpg\" alt=\"Magazyn 51\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"148",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "148_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{148} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Thunderstone",
+				"title":"Kamień Gromu",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"122_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/53953/thunderstone\" target=\"_blank\"><img src=\"images/games/122_Thunderstone.jpg\" alt=\"Kamień Gromu\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"122",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "122_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{122} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Deep_Sea",
+				"title":"Deep Sea Adventure",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"61_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/169654/deep-sea-adventure\" target=\"_blank\"><img src=\"images/games/61_Deep_Sea.jpg\" alt=\"Deep Sea Adventure\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"61",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "61_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{61} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Pandemic_Legacy",
+				"title":"Pandemic Legacy (seria)",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"190_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/3430/game-pandemic\" target=\"_blank\"><img src=\"images/games/190_Pandemic_Legacy.jpg\" alt=\"Pandemic Legacy (seria)\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"190",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "190_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{190} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Podaj_Dalej",
+				"title":"Podaj Dalej",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"351_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/46213/telestrations\" target=\"_blank\"><img src=\"images/games/351_Podaj_Dalej.jpg\" alt=\"Podaj Dalej\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"351",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "351_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{351} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  
+		   ]
+		},
+//page 5	
+		{
+		   "name":"TOP50 Ankieta",
+		   "title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
+		   "elements":[
+		   {
+				"type":"panel",
+				"name":"Keyflower",
+				"title":"Keyflower",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"127_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/122515/keyflower\" target=\"_blank\"><img src=\"images/games/127_Keyflower.jpg\" alt=\"Keyflower\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"127",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "127_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{127} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Wysokie_Karciane",
+				"title":"Wysokie Napięcie: Gra karciana",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"317_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/203780/power-grid-card-game\" target=\"_blank\"><img src=\"images/games/317_Wysokie_Karciane.jpg\" alt=\"Wysokie Napięcie: Gra karciana\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"317",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "317_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{317} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Wiedenski_Lacznik",
+				"title":"Wiedeński Łącznik",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"302_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/299255/vienna-connection\" target=\"_blank\"><img src=\"images/games/302_Wiedenski_Lacznik.jpg\" alt=\"Wiedeński Łącznik\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"302",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "302_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{302} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Dobble",
+				"title":"Dobble",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"66_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/63268/spot-it\" target=\"_blank\"><img src=\"images/games/66_Dobble.jpg\" alt=\"Dobble\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"66",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "66_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{66} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"GSC",
+				"title":"Ganz schön clever",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"91_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/244522/s-pretty-clever\" target=\"_blank\"><img src=\"images/games/91_GSC.jpg\" alt=\"Ganz schön clever\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"91",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "91_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{91} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Wladca_Areny",
+				"title":"Władca Areny",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"309_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/126550/wladca-areny\" target=\"_blank\"><img src=\"images/games/309_Wladca_Areny.jpg\" alt=\"Władca Areny\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"309",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "309_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{309} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Keyforge",
+				"title":"KeyForge: Call of the Archons",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"128_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/257501/keyforge-call-archons\" target=\"_blank\"><img src=\"images/games/128_Keyforge.jpg\" alt=\"KeyForge: Call of the Archons\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"128",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "128_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{128} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Pelny_Kurnik",
+				"title":"Pełny Kurnik",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"197_image",
+				 "html":"<a href=\"BRAK NA BGG\" target=\"_blank\"><img src=\"images/games/197_Pelny_Kurnik.jpg\" alt=\"Pełny Kurnik\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"197",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "197_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{197} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Patchwork",
+				"title":"Patchwork",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"359_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/163412/patchwork\" target=\"_blank\"><img src=\"images/games/359_Patchwork.jpg\" alt=\"Patchwork\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"359",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "359_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{359} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Wyscig_do_Renu",
+				"title":"Wyścig do Renu",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"319_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/148601/1944-race-rhine\" target=\"_blank\"><img src=\"images/games/319_Wyscig_do_Renu.jpg\" alt=\"Wyścig do Renu\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"319",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "319_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{319} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  
+		   ]
+		},
+		//page 6
+		{
+		   "name":"TOP50 Ankieta",
+		   "title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
+		   "elements":[
+		   {
+				"type":"panel",
+				"name":"Vulgari_Elo",
+				"title":"De Vulgari Eloquentia",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"59_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/275010/de-vulgari-eloquentia-deluxe-edition\" target=\"_blank\"><img src=\"images/games/59_Vulgari_Elo.jpg\" alt=\"De Vulgari Eloquentia\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"59",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "59_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{59} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Mind",
+				"title":"The Mind",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"278_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/244992/mind\" target=\"_blank\"><img src=\"images/games/278_Mind.jpg\" alt=\"The Mind\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"278",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "278_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{278} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Lisboa",
+				"title":"Lisboa",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"335_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/161533/lisboa\" target=\"_blank\"><img src=\"images/games/335_Lisboa.jpg\" alt=\"Lisboa\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"335",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "335_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{335} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Cytadela",
+				"title":"Cytadela",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"57_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/478/citadels\" target=\"_blank\"><img src=\"images/games/57_Cytadela.jpg\" alt=\"Cytadela\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"57",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "57_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{57} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Mombasa",
+				"title":"Mombasa",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"158_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/172386/mombasa\" target=\"_blank\"><img src=\"images/games/158_Mombasa.jpg\" alt=\"Mombasa\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"158",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "158_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{158} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Eldritch",
+				"title":"Eldritch Horror",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"76_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/146021/eldritch-horror\" target=\"_blank\"><img src=\"images/games/76_Eldritch.jpg\" alt=\"Eldritch Horror\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"76",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "76_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{76} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Wirus",
+				"title":"Wirus",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"308_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/180020/virus\" target=\"_blank\"><img src=\"images/games/308_Wirus.jpg\" alt=\"Wirus\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"308",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "308_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{308} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Carnegie",
+				"title":"Carnegie",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"352_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/310873/carnegie\" target=\"_blank\"><img src=\"images/games/352_Carnegie.jpg\" alt=\"Carnegie\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"352",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "352_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{352} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Montana",
+				"title":"Montana",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"161_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/233955/montana\" target=\"_blank\"><img src=\"images/games/161_Montana.jpg\" alt=\"Montana\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"161",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "161_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{161} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  },
+			  {
+				"type":"panel",
+				"name":"Cardline",
+				"title":"Cardline: Dinozaury/Marvel",
+				"isRequired":true,
+				"questionsOrder": "initial",
+				"showNumber":true,
+				"elements":[
+				{
+				 "type":"html",
+				 "name":"38_image",
+				 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/23281/game-cardline\" target=\"_blank\"><img src=\"images/games/38_Cardline.jpg\" alt=\"Cardline: Dinozaury/Marvel\" style=\"width:500px;\"> </a>"
+				},
+				{
+				 "type":"imagepicker",
+				 "name":"38",
+				 "titleLocation":"hidden",
+				 "defaultValue":"x",
+				 "isRequired":true,
+				 "choices":[
+				  {"value":"t1","imageLink":"images/icons/1_mini.png"},
+				  {"value":"t2","imageLink":"images/icons/2_mini.png"},
+				  {"value":"t3","imageLink":"images/icons/3_mini.png"},
+				 {"value":"t4","imageLink":"images/icons/4_mini.png"},
+				  {"value":"t5","imageLink":"images/icons/5_mini.png"},
+				  {"value":"x","imageLink":"images/icons/x_mini.png"}
+				 ],
+				 "imageHeight":50,
+				 "imageWidth":50
+				},
+				{
+				  "type": "boolean",
+				  "indent": "15",
+				  "name": "38_nextyear",
+				  "title": "Chcesz ocenić tę grę za rok?",
+				  "titleLocation": "default",
+				  "labelTrue": "TAK",
+				  "labelFalse": "NIE",
+				  "defaultValue": true,
+				  "visibleIf": "{38} = 'x'",
+				  "hideNumber": true
+				}
+				
+			   ]
+				
+			  }
+			  
+		   ]
+		}		
+	]
+	
+};
+
+
+//survey.firstPageIsStarted = true;
+
+function sendDataToServer(survey, options) {
+    //send Ajax request to your web server.
+	options.showDataSaving();
+	$.ajax({
+		url: 'https://script.google.com/macros/s/AKfycbxYC-DeF-667TpNdXRMPeXZaaSb8L6TcHir_VqYRqEPXrFKDNzSbFcz2d6mmZ8BFx0/exec',
+		type: 'post',
+		data: JSON.stringify(survey.data),
+		headers: {
+			"Content-Type": "text/plain"
+		},
+		processData: false,
+		complete: function(res, status) {
+			if (status == 'success') {
+				options.showDataSavingSuccess();
+			}else {
+				options.showDataSavingError();
+			}
+		},
+	});
+
+	//alert("The results are:" + JSON.stringify(survey.data));
+}
+
+
+var survey = new Survey.Model(surveyJSON);
+
+$("#surveyElement").Survey({
+    model: survey,
+    onComplete: sendDataToServer
+});
