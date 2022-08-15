@@ -344,7 +344,7 @@ var surveyJSON =  {
 				  },
 				  {
 					"type":"panel",
-					"name":"5Sekund",
+					"name":"5sekund",
 					"title":"5 sekund",
 					"isRequired":true,
 					"questionsOrder": "initial",
@@ -353,7 +353,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"2_image",
-					 "html":"<a href=\"https://boardgamegeek.com/boardgame/86073/5-second-rule\" target=\"_blank\"><img src=\"images/games/2_5Sekund.jpg\" alt=\"5 sekund\" style=\"width:500px;\"> </a>"
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/86073/5-second-rule\" target=\"_blank\"><img src=\"images/games/2_5sekund.jpg\" alt=\"5 sekund\" style=\"width:500px;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
