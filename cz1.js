@@ -8,7 +8,7 @@ var surveyJSON =  {
 	"title":"TOP 50 Gier Wszechczasów (2022)",
 	"showProgressBar": "top",
 	"pages":[
-//page 1
+//page  1
 		{
 			"name":"TOP50 Ankieta",
 			"title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
