@@ -31,7 +31,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"1_image",
-					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/19/series-18xx\" target=\"_blank\"><img src=\"images/games/1_18xx.jpg\" alt=\"18XX (seria)\" > </a>"
+					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/19/series-18xx\" target=\"_blank\"><img src=\"images/games/1_18xx.jpg\" alt=\"18XX (seria)\" style=\"max-width:100%;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
@@ -52,7 +52,7 @@ var surveyJSON =  {
 					},
 					{
 					  "type": "boolean",
-					  "indent": "15",
+					  
 					  "name": "1_nextyear",
 					  "title": "Chcesz ocenić tę grę za rok?",
 					  "titleLocation": "default",
@@ -77,7 +77,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"268_image",
-					 "html":"<a href=\"BRAK NA BGG\" target=\"_blank\"><img src=\"images/games/268_kto_da_wiecej.jpg\" alt=\"Kto Da Więcej?\" > </a>"
+					 "html":"<a href=\"BRAK NA BGG\" target=\"_blank\"><img src=\"images/games/268_kto_da_wiecej.jpg\" alt=\"Kto Da Więcej?\" style=\"max-width:100%;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
@@ -98,7 +98,7 @@ var surveyJSON =  {
 					},
 					{
 					  "type": "boolean",
-					  "indent": "15",
+					  
 					  "name": "268_nextyear",
 					  "title": "Chcesz ocenić tę grę za rok?",
 					  "titleLocation": "default",
@@ -123,7 +123,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"189_image",
-					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/3430/game-pandemic\" target=\"_blank\"><img src=\"images/games/189_pandemic.jpg\" alt=\"Pandemic (seria)\" > </a>"
+					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/3430/game-pandemic\" target=\"_blank\"><img src=\"images/games/189_pandemic.jpg\" alt=\"Pandemic (seria)\" style=\"max-width:100%;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
@@ -144,7 +144,7 @@ var surveyJSON =  {
 					},
 					{
 					  "type": "boolean",
-					  "indent": "15",
+					  
 					  "name": "189_nextyear",
 					  "title": "Chcesz ocenić tę grę za rok?",
 					  "titleLocation": "default",
@@ -169,7 +169,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"27_image",
-					 "html":"<a href=\"https://boardgamegeek.com/boardgame/262215/blackout-hong-kong\" target=\"_blank\"><img src=\"images/games/27_blackout_hk.jpg\" alt=\"Blackout: Hong Kong\" > </a>"
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/262215/blackout-hong-kong\" target=\"_blank\"><img src=\"images/games/27_blackout_hk.jpg\" alt=\"Blackout: Hong Kong\" style=\"max-width:100%;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
@@ -190,7 +190,7 @@ var surveyJSON =  {
 					},
 					{
 					  "type": "boolean",
-					  "indent": "15",
+					  
 					  "name": "27_nextyear",
 					  "title": "Chcesz ocenić tę grę za rok?",
 					  "titleLocation": "default",
@@ -215,7 +215,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"299_image",
-					 "html":"<a href=\"https://boardgamegeek.com/boardgame/229265/wendake\" target=\"_blank\"><img src=\"images/games/299_wendake.jpg\" alt=\"Wendake\" > </a>"
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/229265/wendake\" target=\"_blank\"><img src=\"images/games/299_wendake.jpg\" alt=\"Wendake\" style=\"max-width:100%;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
@@ -236,7 +236,7 @@ var surveyJSON =  {
 					},
 					{
 					  "type": "boolean",
-					  "indent": "15",
+					  
 					  "name": "299_nextyear",
 					  "title": "Chcesz ocenić tę grę za rok?",
 					  "titleLocation": "default",
@@ -261,7 +261,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"78_image",
-					 "html":"<a href=\"https://boardgamegeek.com/boardgame/34635/stone-age\" target=\"_blank\"><img src=\"images/games/78_epoka_kamienia.jpg\" alt=\"Epoka Kamienia\" > </a>"
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/34635/stone-age\" target=\"_blank\"><img src=\"images/games/78_epoka_kamienia.jpg\" alt=\"Epoka Kamienia\" style=\"max-width:100%;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
@@ -282,7 +282,7 @@ var surveyJSON =  {
 					},
 					{
 					  "type": "boolean",
-					  "indent": "15",
+					  
 					  "name": "78_nextyear",
 					  "title": "Chcesz ocenić tę grę za rok?",
 					  "titleLocation": "default",
@@ -307,7 +307,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"232_image",
-					 "html":"<a href=\"https://boardgamegeek.com/boardgame/438/scotland-yard\" target=\"_blank\"><img src=\"images/games/232_scotland_yard.jpg\" alt=\"Scotland Yard\" > </a>"
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/438/scotland-yard\" target=\"_blank\"><img src=\"images/games/232_scotland_yard.jpg\" alt=\"Scotland Yard\" style=\"max-width:100%;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
@@ -328,7 +328,7 @@ var surveyJSON =  {
 					},
 					{
 					  "type": "boolean",
-					  "indent": "15",
+					  
 					  "name": "232_nextyear",
 					  "title": "Chcesz ocenić tę grę za rok?",
 					  "titleLocation": "default",
@@ -353,7 +353,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"2_image",
-					 "html":"<a href=\"https://boardgamegeek.com/boardgame/86073/5-second-rule\" target=\"_blank\"><img src=\"images/games/2_5sekund.jpg\" alt=\"5 sekund\" > </a>"
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/86073/5-second-rule\" target=\"_blank\"><img src=\"images/games/2_5sekund.jpg\" alt=\"5 sekund\" style=\"max-width:100%;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
@@ -374,7 +374,7 @@ var surveyJSON =  {
 					},
 					{
 					  "type": "boolean",
-					  "indent": "15",
+					  
 					  "name": "2_nextyear",
 					  "title": "Chcesz ocenić tę grę za rok?",
 					  "titleLocation": "default",
@@ -399,7 +399,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"338_image",
-					 "html":"<a href=\"https://boardgamegeek.com/boardgame/187645/star-wars-rebellion\" target=\"_blank\"><img src=\"images/games/338_sw_rebelia.jpg\" alt=\"Star Wars: Rebelia\" > </a>"
+					 "html":"<a href=\"https://boardgamegeek.com/boardgame/187645/star-wars-rebellion\" target=\"_blank\"><img src=\"images/games/338_sw_rebelia.jpg\" alt=\"Star Wars: Rebelia\" style=\"max-width:100%;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
@@ -420,7 +420,7 @@ var surveyJSON =  {
 					},
 					{
 					  "type": "boolean",
-					  "indent": "15",
+					  
 					  "name": "338_nextyear",
 					  "title": "Chcesz ocenić tę grę za rok?",
 					  "titleLocation": "default",
@@ -445,7 +445,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"82_image",
-					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/36963/series-exit-game\" target=\"_blank\"><img src=\"images/games/82_exit.jpg\" alt=\"EXIT (seria)\" > </a>"
+					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/36963/series-exit-game\" target=\"_blank\"><img src=\"images/games/82_exit.jpg\" alt=\"EXIT (seria)\" style=\"max-width:100%;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
@@ -466,7 +466,7 @@ var surveyJSON =  {
 					},
 					{
 					  "type": "boolean",
-					  "indent": "15",
+					  
 					  "name": "82_nextyear",
 					  "title": "Chcesz ocenić tę grę za rok?",
 					  "titleLocation": "default",
@@ -499,7 +499,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"348_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/265188/glen-more-ii-chronicles\" target=\"_blank\"><img src=\"images/games/348_glen_more_ii.jpg\" alt=\"Glen More II: Kroniki\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/265188/glen-more-ii-chronicles\" target=\"_blank\"><img src=\"images/games/348_glen_more_ii.jpg\" alt=\"Glen More II: Kroniki\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -520,7 +520,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "348_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -545,7 +545,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"13_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/3431/game-alhambra\" target=\"_blank\"><img src=\"images/games/13_alhambra.jpg\" alt=\"Alhambra\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/3431/game-alhambra\" target=\"_blank\"><img src=\"images/games/13_alhambra.jpg\" alt=\"Alhambra\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -566,7 +566,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "13_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -591,7 +591,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"248_image",
-				 "html":"<a href=\"BRAK NA BGG\" target=\"_blank\"><img src=\"images/games/248_sprawdzian.jpg\" alt=\"Sprawdzian\" > </a>"
+				 "html":"<a href=\"BRAK NA BGG\" target=\"_blank\"><img src=\"images/games/248_sprawdzian.jpg\" alt=\"Sprawdzian\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -612,7 +612,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "248_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -637,7 +637,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"156_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/150376/dead-winter-crossroads-game\" target=\"_blank\"><img src=\"images/games/156_martwa_zima.jpg\" alt=\"Martwa Zima: Gra Rozdroży\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/150376/dead-winter-crossroads-game\" target=\"_blank\"><img src=\"images/games/156_martwa_zima.jpg\" alt=\"Martwa Zima: Gra Rozdroży\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -658,7 +658,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "156_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -683,7 +683,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"237_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/204305/sherlock-holmes-consulting-detective-jack-ripper-w\" target=\"_blank\"><img src=\"images/games/237_detektyw_doradczy.jpg\" alt=\"Sherlock Holmes: Detektyw doradczy\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/204305/sherlock-holmes-consulting-detective-jack-ripper-w\" target=\"_blank\"><img src=\"images/games/237_detektyw_doradczy.jpg\" alt=\"Sherlock Holmes: Detektyw doradczy\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -704,7 +704,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "237_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -729,7 +729,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"110_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/177524/icecool\" target=\"_blank\"><img src=\"images/games/110_icecool.jpg\" alt=\"ICECOOL\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/177524/icecool\" target=\"_blank\"><img src=\"images/games/110_icecool.jpg\" alt=\"ICECOOL\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -750,7 +750,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "110_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -775,7 +775,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"202_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/156930/pizza-xxl\" target=\"_blank\"><img src=\"images/games/202_pizza_xxl.jpg\" alt=\"Pizza XXL\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/156930/pizza-xxl\" target=\"_blank\"><img src=\"images/games/202_pizza_xxl.jpg\" alt=\"Pizza XXL\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -796,7 +796,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "202_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -821,7 +821,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"194_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/321951/partytura\" target=\"_blank\"><img src=\"images/games/194_partytura.jpg\" alt=\"PARTYtura\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/321951/partytura\" target=\"_blank\"><img src=\"images/games/194_partytura.jpg\" alt=\"PARTYtura\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -842,7 +842,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "194_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -867,7 +867,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"279_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/136117/walking-dead-card-game\" target=\"_blank\"><img src=\"images/games/279_walking_dead.jpg\" alt=\"The Walking Dead: Card Game\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/136117/walking-dead-card-game\" target=\"_blank\"><img src=\"images/games/279_walking_dead.jpg\" alt=\"The Walking Dead: Card Game\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -888,7 +888,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "279_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -913,7 +913,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"102_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/193738/great-western-trail\" target=\"_blank\"><img src=\"images/games/102_gwt.jpg\" alt=\"Great Western Trail\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/193738/great-western-trail\" target=\"_blank\"><img src=\"images/games/102_gwt.jpg\" alt=\"Great Western Trail\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -934,7 +934,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "102_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -967,7 +967,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"21_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/5393/wheedle\" target=\"_blank\"><img src=\"images/games/21_bankrut.jpg\" alt=\"Bankrut\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/5393/wheedle\" target=\"_blank\"><img src=\"images/games/21_bankrut.jpg\" alt=\"Bankrut\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -988,7 +988,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "21_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1013,7 +1013,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"182_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/184267/mars\" target=\"_blank\"><img src=\"images/games/182_om.jpg\" alt=\"On Mars\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/184267/mars\" target=\"_blank\"><img src=\"images/games/182_om.jpg\" alt=\"On Mars\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1034,7 +1034,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "182_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1059,7 +1059,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"170_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/244711/newton\" target=\"_blank\"><img src=\"images/games/170_newton.jpg\" alt=\"Newton\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/244711/newton\" target=\"_blank\"><img src=\"images/games/170_newton.jpg\" alt=\"Newton\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1080,7 +1080,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "170_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1105,7 +1105,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"33_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/2181/bridge\" target=\"_blank\"><img src=\"images/games/33_bridge.jpg\" alt=\"Brydż\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/2181/bridge\" target=\"_blank\"><img src=\"images/games/33_bridge.jpg\" alt=\"Brydż\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1126,7 +1126,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "33_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1151,7 +1151,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"234_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/169786/scythe\" target=\"_blank\"><img src=\"images/games/234_scythe.jpg\" alt=\"Scythe\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/169786/scythe\" target=\"_blank\"><img src=\"images/games/234_scythe.jpg\" alt=\"Scythe\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1172,7 +1172,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "234_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1197,7 +1197,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"113_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/54138/imperial-2030\" target=\"_blank\"><img src=\"images/games/113_imperial_2030.jpg\" alt=\"Imperial 2030\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/54138/imperial-2030\" target=\"_blank\"><img src=\"images/games/113_imperial_2030.jpg\" alt=\"Imperial 2030\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1218,7 +1218,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "113_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1243,7 +1243,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"267_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/37062/game-codenames\" target=\"_blank\"><img src=\"images/games/267_tajniacy.jpg\" alt=\"Tajniacy (seria)\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/37062/game-codenames\" target=\"_blank\"><img src=\"images/games/267_tajniacy.jpg\" alt=\"Tajniacy (seria)\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1264,7 +1264,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "267_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1289,7 +1289,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"181_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/204027/cottage-garden\" target=\"_blank\"><img src=\"images/games/181_ogrodek.jpg\" alt=\"Ogródek\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/204027/cottage-garden\" target=\"_blank\"><img src=\"images/games/181_ogrodek.jpg\" alt=\"Ogródek\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1310,7 +1310,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "181_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1335,7 +1335,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"23_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/50750/belfort\" target=\"_blank\"><img src=\"images/games/23_belfort.jpg\" alt=\"Belfort\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/50750/belfort\" target=\"_blank\"><img src=\"images/games/23_belfort.jpg\" alt=\"Belfort\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1356,7 +1356,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "23_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1381,7 +1381,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"324_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/4143/guess-who\" target=\"_blank\"><img src=\"images/games/324_zgadnij_kto.jpg\" alt=\"Zgadnij kto to?\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/4143/guess-who\" target=\"_blank\"><img src=\"images/games/324_zgadnij_kto.jpg\" alt=\"Zgadnij kto to?\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1402,7 +1402,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "324_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1435,7 +1435,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"239_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/133534/sigismundus-augustus-dei-gratia-rex-poloniae\" target=\"_blank\"><img src=\"images/games/239_sigismundus.jpg\" alt=\"Sigismundus Augustus: Dei gratia rex Poloniae\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/133534/sigismundus-augustus-dei-gratia-rex-poloniae\" target=\"_blank\"><img src=\"images/games/239_sigismundus.jpg\" alt=\"Sigismundus Augustus: Dei gratia rex Poloniae\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1456,7 +1456,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "239_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1481,7 +1481,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"42_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/179794/me-want-cookies\" target=\"_blank\"><img src=\"images/games/42_ciasteczkowe_potworki.jpg\" alt=\"Ciasteczkowe potworki\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/179794/me-want-cookies\" target=\"_blank\"><img src=\"images/games/42_ciasteczkowe_potworki.jpg\" alt=\"Ciasteczkowe potworki\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1502,7 +1502,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "42_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1527,7 +1527,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"333_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/264220/tainted-grail-fall-avalon\" target=\"_blank\"><img src=\"images/games/333_tainted_grail.jpg\" alt=\"Tainted Grail\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/264220/tainted-grail-fall-avalon\" target=\"_blank\"><img src=\"images/games/333_tainted_grail.jpg\" alt=\"Tainted Grail\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1548,7 +1548,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "333_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1573,7 +1573,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"25_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/230244/black-angel\" target=\"_blank\"><img src=\"images/games/25_black_angel.jpg\" alt=\"Black Angel\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/230244/black-angel\" target=\"_blank\"><img src=\"images/games/25_black_angel.jpg\" alt=\"Black Angel\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1594,7 +1594,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "25_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1619,7 +1619,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"108_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/126444/hobbit-card-game\" target=\"_blank\"><img src=\"images/games/108_hobbit.jpg\" alt=\"Hobbit: Gra Karciana\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/126444/hobbit-card-game\" target=\"_blank\"><img src=\"images/games/108_hobbit.jpg\" alt=\"Hobbit: Gra Karciana\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1640,7 +1640,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "108_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1665,7 +1665,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"148_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/177702/warehouse-51\" target=\"_blank\"><img src=\"images/games/148_magazyn51.jpg\" alt=\"Magazyn 51\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/177702/warehouse-51\" target=\"_blank\"><img src=\"images/games/148_magazyn51.jpg\" alt=\"Magazyn 51\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1686,7 +1686,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "148_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1711,7 +1711,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"122_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/53953/thunderstone\" target=\"_blank\"><img src=\"images/games/122_thunderstone.jpg\" alt=\"Kamień Gromu\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/53953/thunderstone\" target=\"_blank\"><img src=\"images/games/122_thunderstone.jpg\" alt=\"Kamień Gromu\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1732,7 +1732,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "122_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1757,7 +1757,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"61_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/169654/deep-sea-adventure\" target=\"_blank\"><img src=\"images/games/61_deep_sea.jpg\" alt=\"Deep Sea Adventure\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/169654/deep-sea-adventure\" target=\"_blank\"><img src=\"images/games/61_deep_sea.jpg\" alt=\"Deep Sea Adventure\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1778,7 +1778,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "61_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1803,7 +1803,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"190_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/3430/game-pandemic\" target=\"_blank\"><img src=\"images/games/190_pandemic_legacy.jpg\" alt=\"Pandemic Legacy (seria)\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/3430/game-pandemic\" target=\"_blank\"><img src=\"images/games/190_pandemic_legacy.jpg\" alt=\"Pandemic Legacy (seria)\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1824,7 +1824,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "190_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1849,7 +1849,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"351_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/46213/telestrations\" target=\"_blank\"><img src=\"images/games/351_podaj_dalej.jpg\" alt=\"Podaj Dalej\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/46213/telestrations\" target=\"_blank\"><img src=\"images/games/351_podaj_dalej.jpg\" alt=\"Podaj Dalej\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1870,7 +1870,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "351_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1903,7 +1903,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"127_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/122515/keyflower\" target=\"_blank\"><img src=\"images/games/127_keyflower.jpg\" alt=\"Keyflower\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/122515/keyflower\" target=\"_blank\"><img src=\"images/games/127_keyflower.jpg\" alt=\"Keyflower\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1924,7 +1924,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "127_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1949,7 +1949,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"317_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/203780/power-grid-card-game\" target=\"_blank\"><img src=\"images/games/317_wysokie_karciane.jpg\" alt=\"Wysokie Napięcie: Gra karciana\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/203780/power-grid-card-game\" target=\"_blank\"><img src=\"images/games/317_wysokie_karciane.jpg\" alt=\"Wysokie Napięcie: Gra karciana\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -1970,7 +1970,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "317_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -1995,7 +1995,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"302_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/299255/vienna-connection\" target=\"_blank\"><img src=\"images/games/302_wiedenski_lacznik.jpg\" alt=\"Wiedeński Łącznik\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/299255/vienna-connection\" target=\"_blank\"><img src=\"images/games/302_wiedenski_lacznik.jpg\" alt=\"Wiedeński Łącznik\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2016,7 +2016,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "302_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2041,7 +2041,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"66_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/63268/spot-it\" target=\"_blank\"><img src=\"images/games/66_dobble.jpg\" alt=\"Dobble\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/63268/spot-it\" target=\"_blank\"><img src=\"images/games/66_dobble.jpg\" alt=\"Dobble\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2062,7 +2062,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "66_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2087,7 +2087,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"91_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/244522/s-pretty-clever\" target=\"_blank\"><img src=\"images/games/91_gsc.jpg\" alt=\"Ganz schön clever\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/244522/s-pretty-clever\" target=\"_blank\"><img src=\"images/games/91_gsc.jpg\" alt=\"Ganz schön clever\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2108,7 +2108,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "91_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2133,7 +2133,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"309_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/126550/wladca-areny\" target=\"_blank\"><img src=\"images/games/309_wladca_areny.jpg\" alt=\"Władca Areny\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/126550/wladca-areny\" target=\"_blank\"><img src=\"images/games/309_wladca_areny.jpg\" alt=\"Władca Areny\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2154,7 +2154,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "309_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2179,7 +2179,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"128_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/257501/keyforge-call-archons\" target=\"_blank\"><img src=\"images/games/128_keyforge.jpg\" alt=\"KeyForge: Call of the Archons\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/257501/keyforge-call-archons\" target=\"_blank\"><img src=\"images/games/128_keyforge.jpg\" alt=\"KeyForge: Call of the Archons\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2200,7 +2200,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "128_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2225,7 +2225,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"197_image",
-				 "html":"<a href=\"BRAK NA BGG\" target=\"_blank\"><img src=\"images/games/197_pelny_kurnik.jpg\" alt=\"Pełny Kurnik\" > </a>"
+				 "html":"<a href=\"BRAK NA BGG\" target=\"_blank\"><img src=\"images/games/197_pelny_kurnik.jpg\" alt=\"Pełny Kurnik\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2246,7 +2246,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "197_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2271,7 +2271,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"359_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/163412/patchwork\" target=\"_blank\"><img src=\"images/games/359_patchwork.jpg\" alt=\"Patchwork\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/163412/patchwork\" target=\"_blank\"><img src=\"images/games/359_patchwork.jpg\" alt=\"Patchwork\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2292,7 +2292,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "359_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2317,7 +2317,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"319_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/148601/1944-race-rhine\" target=\"_blank\"><img src=\"images/games/319_wyscig_do_renu.jpg\" alt=\"Wyścig do Renu\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/148601/1944-race-rhine\" target=\"_blank\"><img src=\"images/games/319_wyscig_do_renu.jpg\" alt=\"Wyścig do Renu\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2338,7 +2338,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "319_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2371,7 +2371,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"59_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/275010/de-vulgari-eloquentia-deluxe-edition\" target=\"_blank\"><img src=\"images/games/59_vulgari_elo.jpg\" alt=\"De Vulgari Eloquentia\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/275010/de-vulgari-eloquentia-deluxe-edition\" target=\"_blank\"><img src=\"images/games/59_vulgari_elo.jpg\" alt=\"De Vulgari Eloquentia\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2392,7 +2392,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "59_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2417,7 +2417,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"278_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/244992/mind\" target=\"_blank\"><img src=\"images/games/278_mind.jpg\" alt=\"The Mind\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/244992/mind\" target=\"_blank\"><img src=\"images/games/278_mind.jpg\" alt=\"The Mind\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2438,7 +2438,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "278_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2463,7 +2463,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"335_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/161533/lisboa\" target=\"_blank\"><img src=\"images/games/335_lisboa.jpg\" alt=\"Lisboa\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/161533/lisboa\" target=\"_blank\"><img src=\"images/games/335_lisboa.jpg\" alt=\"Lisboa\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2484,7 +2484,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "335_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2509,7 +2509,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"57_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/478/citadels\" target=\"_blank\"><img src=\"images/games/57_cytadela.jpg\" alt=\"Cytadela\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/478/citadels\" target=\"_blank\"><img src=\"images/games/57_cytadela.jpg\" alt=\"Cytadela\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2530,7 +2530,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "57_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2555,7 +2555,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"158_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/172386/mombasa\" target=\"_blank\"><img src=\"images/games/158_mombasa.jpg\" alt=\"Mombasa\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/172386/mombasa\" target=\"_blank\"><img src=\"images/games/158_mombasa.jpg\" alt=\"Mombasa\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2576,7 +2576,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "158_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2601,7 +2601,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"76_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/146021/eldritch-horror\" target=\"_blank\"><img src=\"images/games/76_eldritch.jpg\" alt=\"Eldritch Horror\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/146021/eldritch-horror\" target=\"_blank\"><img src=\"images/games/76_eldritch.jpg\" alt=\"Eldritch Horror\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2622,7 +2622,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "76_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2647,7 +2647,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"308_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/180020/virus\" target=\"_blank\"><img src=\"images/games/308_wirus.jpg\" alt=\"Wirus\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/180020/virus\" target=\"_blank\"><img src=\"images/games/308_wirus.jpg\" alt=\"Wirus\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2668,7 +2668,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "308_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2693,7 +2693,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"352_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/310873/carnegie\" target=\"_blank\"><img src=\"images/games/352_carnegie.jpg\" alt=\"Carnegie\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/310873/carnegie\" target=\"_blank\"><img src=\"images/games/352_carnegie.jpg\" alt=\"Carnegie\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2714,7 +2714,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "352_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2739,7 +2739,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"161_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgame/233955/montana\" target=\"_blank\"><img src=\"images/games/161_montana.jpg\" alt=\"Montana\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgame/233955/montana\" target=\"_blank\"><img src=\"images/games/161_montana.jpg\" alt=\"Montana\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2760,7 +2760,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "161_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
@@ -2785,7 +2785,7 @@ var surveyJSON =  {
 				{
 				 "type":"html",
 				 "name":"38_image",
-				 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/23281/game-cardline\" target=\"_blank\"><img src=\"images/games/38_cardline.jpg\" alt=\"Cardline: Dinozaury/Marvel\" > </a>"
+				 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/23281/game-cardline\" target=\"_blank\"><img src=\"images/games/38_cardline.jpg\" alt=\"Cardline: Dinozaury/Marvel\" style=\"max-width:100%;\"> </a>"
 				},
 				{
 				 "type":"imagepicker",
@@ -2806,7 +2806,7 @@ var surveyJSON =  {
 				},
 				{
 				  "type": "boolean",
-				  "indent": "15",
+				  
 				  "name": "38_nextyear",
 				  "title": "Chcesz ocenić tę grę za rok?",
 				  "titleLocation": "default",
