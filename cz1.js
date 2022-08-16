@@ -123,7 +123,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"189_image",
-					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/3430/game-pandemic\" target=\"_blank\"><img src=\"images/games/189_Pandemic.jpg\" alt=\"Pandemic (seria)\" style=\"width:500px;\"> </a>"
+					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/3430/game-pandemic\" target=\"_blank\"><img src=\"images/games/189_pandemic.jpg\" alt=\"Pandemic (seria)\" style=\"width:500px;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
