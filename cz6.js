@@ -1328,7 +1328,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"218_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/42452/rattus\" target=\"_blank\"><img src=\"images/games/218_Rattus.jpg\" alt=\"Rattus\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/42452/rattus\" target=\"_blank\"><img src=\"images/games/218_rattus.jpg\" alt=\"Rattus\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",

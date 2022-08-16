@@ -775,7 +775,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"298_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/204575/way-panda\" target=\"_blank\"><img src=\"images/games/298_Way_of_the_Panda.jpg\" alt=\"Way of the Panda\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/204575/way-panda\" target=\"_blank\"><img src=\"images/games/298_way_of_the_panda.jpg\" alt=\"Way of the Panda\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1243,7 +1243,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"243_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/27389/smart-ass\" target=\"_blank\"><img src=\"images/games/243_Smart_Ass.jpg\" alt=\"Smart Ass\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/27389/smart-ass\" target=\"_blank\"><img src=\"images/games/243_smart_ass.jpg\" alt=\"Smart Ass\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1573,7 +1573,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"210_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/70323/king-tokyo\" target=\"_blank\"><img src=\"images/games/210_Potwory_Tokio.jpg\" alt=\"Potwory w Tokio\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/70323/king-tokyo\" target=\"_blank\"><img src=\"images/games/210_potwory_tokio.jpg\" alt=\"Potwory w Tokio\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2371,7 +2371,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"175_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/183840/oh-my-goods\" target=\"_blank\"><img src=\"images/games/175_OMGoods.jpg\" alt=\"O mój Zboże!\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/183840/oh-my-goods\" target=\"_blank\"><img src=\"images/games/175_omgoods.jpg\" alt=\"O mój Zboże!\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",

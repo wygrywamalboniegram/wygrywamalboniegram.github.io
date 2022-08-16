@@ -591,7 +591,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"5_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/173346/7-wonders-duel\" target=\"_blank\"><img src=\"images/games/5_7W_Duel.jpg\" alt=\"7 Cudów Świata: Pojedynek\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/173346/7-wonders-duel\" target=\"_blank\"><img src=\"images/games/5_7w_duel.jpg\" alt=\"7 Cudów Świata: Pojedynek\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1105,7 +1105,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"159_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/1406/monopoly\" target=\"_blank\"><img src=\"images/games/159_Monopoly.jpg\" alt=\"Monopoly\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/1406/monopoly\" target=\"_blank\"><img src=\"images/games/159_monopoly.jpg\" alt=\"Monopoly\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1289,7 +1289,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"253_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/179460/stronghold-2nd-edition\" target=\"_blank\"><img src=\"images/games/253_Stronghold.jpg\" alt=\"Stronghold\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/179460/stronghold-2nd-edition\" target=\"_blank\"><img src=\"images/games/253_stronghold.jpg\" alt=\"Stronghold\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1711,7 +1711,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"152_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/463/magic-gathering\" target=\"_blank\"><img src=\"images/games/152_MtG.jpg\" alt=\"Magic the Gathering\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/463/magic-gathering\" target=\"_blank\"><img src=\"images/games/152_mtg.jpg\" alt=\"Magic the Gathering\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2041,7 +2041,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"219_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/121921/robinson-crusoe-adventures-cursed-island\" target=\"_blank\"><img src=\"images/games/219_Robinson.jpg\" alt=\"Robinson Crusoe: Przygoda na przeklętej wyspie\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/121921/robinson-crusoe-adventures-cursed-island\" target=\"_blank\"><img src=\"images/games/219_robinson.jpg\" alt=\"Robinson Crusoe: Przygoda na przeklętej wyspie\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2417,7 +2417,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"364_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/170415/dungeon-fortune\" target=\"_blank\"><img src=\"images/games/364_Dungeon_Fortune.jpg\" alt=\"Dungeon of Fortune\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/170415/dungeon-fortune\" target=\"_blank\"><img src=\"images/games/364_dungeon_fortune.jpg\" alt=\"Dungeon of Fortune\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",

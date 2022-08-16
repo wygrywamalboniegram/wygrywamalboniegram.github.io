@@ -775,7 +775,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"183_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/71836/onirim\" target=\"_blank\"><img src=\"images/games/183_Onirim.jpg\" alt=\"Onirim\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/71836/onirim\" target=\"_blank\"><img src=\"images/games/183_onirim.jpg\" alt=\"Onirim\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",

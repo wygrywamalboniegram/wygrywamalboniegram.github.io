@@ -1794,7 +1794,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
-        "name":"Wierla_Skaly",
+        "name":"Wiertla_Skaly",
         "title":"Wiertła, Skały, Minerały",
         "isRequired":true,
         "questionsOrder": "initial",
@@ -1803,7 +1803,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"306_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/162286/super-motherload\" target=\"_blank\"><img src=\"images/games/306_wierla_skaly.jpg\" alt=\"Wiertła, Skały, Minerały\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/162286/super-motherload\" target=\"_blank\"><img src=\"images/games/306_wiertla_skaly.jpg\" alt=\"Wiertła, Skały, Minerały\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
