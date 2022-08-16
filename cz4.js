@@ -31,7 +31,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"266_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/113997/tajemnicze-domostwo\" target=\"_blank\"><img src=\"images/games/266_Tajemnicze_Domostwo.jpg\" alt=\"Tajemnicze Domostwo\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/113997/tajemnicze-domostwo\" target=\"_blank\"><img src=\"images/games/266_tajemnicze_domostwo.jpg\" alt=\"Tajemnicze Domostwo\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -77,7 +77,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"112_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/191894/imagine\" target=\"_blank\"><img src=\"images/games/112_Imago.jpg\" alt=\"Imago\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/191894/imagine\" target=\"_blank\"><img src=\"images/games/112_imago.jpg\" alt=\"Imago\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -123,7 +123,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"45_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/201808/clank-deck-building-adventure\" target=\"_blank\"><img src=\"images/games/45_Clank.jpg\" alt=\"Clank! (Brzdęk)\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/201808/clank-deck-building-adventure\" target=\"_blank\"><img src=\"images/games/45_clank.jpg\" alt=\"Clank! (Brzdęk)\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -169,7 +169,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"153_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/276025/maracaibo\" target=\"_blank\"><img src=\"images/games/153_Maracaibo.jpg\" alt=\"Maracaibo\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/276025/maracaibo\" target=\"_blank\"><img src=\"images/games/153_maracaibo.jpg\" alt=\"Maracaibo\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -215,7 +215,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"40_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/197376/charterstone\" target=\"_blank\"><img src=\"images/games/40_Charterstone.jpg\" alt=\"Charterstone\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/197376/charterstone\" target=\"_blank\"><img src=\"images/games/40_charterstone.jpg\" alt=\"Charterstone\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -261,7 +261,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"357_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/343905/boonlake\" target=\"_blank\"><img src=\"images/games/357_Boonlake.jpg\" alt=\"Boonlake\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/343905/boonlake\" target=\"_blank\"><img src=\"images/games/357_boonlake.jpg\" alt=\"Boonlake\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -307,7 +307,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"124_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/263918/cartographers\" target=\"_blank\"><img src=\"images/games/124_Kartografowie.jpg\" alt=\"Kartografowie\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/263918/cartographers\" target=\"_blank\"><img src=\"images/games/124_kartografowie.jpg\" alt=\"Kartografowie\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -353,7 +353,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"131_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/216132/clans-caledonia\" target=\"_blank\"><img src=\"images/games/131_Klany_Kaledonii.jpg\" alt=\"Klany Kaledonii\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/216132/clans-caledonia\" target=\"_blank\"><img src=\"images/games/131_klany_kaledonii.jpg\" alt=\"Klany Kaledonii\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -399,7 +399,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"96_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/134157/guilds-london\" target=\"_blank\"><img src=\"images/games/96_Gildie_Londynu.jpg\" alt=\"Gildie Londynu\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/134157/guilds-london\" target=\"_blank\"><img src=\"images/games/96_gildie_londynu.jpg\" alt=\"Gildie Londynu\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -445,7 +445,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"43_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/31481/galaxy-trucker\" target=\"_blank\"><img src=\"images/games/43_Galaxy_Trucker.jpg\" alt=\"Ciężarówką przez Galaktykę\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/31481/galaxy-trucker\" target=\"_blank\"><img src=\"images/games/43_galaxy_trucker.jpg\" alt=\"Ciężarówką przez Galaktykę\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -499,7 +499,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"151_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/209778/magic-maze\" target=\"_blank\"><img src=\"images/games/151_Magic_Maze.jpg\" alt=\"Magic Maze: Weź i czmychaj\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/209778/magic-maze\" target=\"_blank\"><img src=\"images/games/151_magic_maze.jpg\" alt=\"Magic Maze: Weź i czmychaj\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -545,7 +545,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"343_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/131835/boss-monster-dungeon-building-card-game\" target=\"_blank\"><img src=\"images/games/343_Boss_Monster.jpg\" alt=\"Boss Monster\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/131835/boss-monster-dungeon-building-card-game\" target=\"_blank\"><img src=\"images/games/343_boss_monster.jpg\" alt=\"Boss Monster\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -591,7 +591,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"349_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/246784/cryptid\" target=\"_blank\"><img src=\"images/games/349_Cryptid.jpg\" alt=\"Cryptid\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/246784/cryptid\" target=\"_blank\"><img src=\"images/games/349_cryptid.jpg\" alt=\"Cryptid\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -637,7 +637,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"185_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/164928/orleans\" target=\"_blank\"><img src=\"images/games/185_Orlean.jpg\" alt=\"Orlean\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/164928/orleans\" target=\"_blank\"><img src=\"images/games/185_orlean.jpg\" alt=\"Orlean\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -683,7 +683,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"144_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/129622/love-letter\" target=\"_blank\"><img src=\"images/games/144_Love_Letter.jpg\" alt=\"List Miłosny\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/129622/love-letter\" target=\"_blank\"><img src=\"images/games/144_love_letter.jpg\" alt=\"List Miłosny\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -729,7 +729,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"41_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/2136/pachisi\" target=\"_blank\"><img src=\"images/games/41_Chinczyk.jpg\" alt=\"Chińczyk\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/2136/pachisi\" target=\"_blank\"><img src=\"images/games/41_chinczyk.jpg\" alt=\"Chińczyk\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -821,7 +821,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"233_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/320/scrabble\" target=\"_blank\"><img src=\"images/games/233_Scrabble.jpg\" alt=\"Scrabble\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/320/scrabble\" target=\"_blank\"><img src=\"images/games/233_scrabble.jpg\" alt=\"Scrabble\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -867,7 +867,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"86_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/310442/feierabend\" target=\"_blank\"><img src=\"images/games/86_Feierabend.jpg\" alt=\"Feierabend\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/310442/feierabend\" target=\"_blank\"><img src=\"images/games/86_feierabend.jpg\" alt=\"Feierabend\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -913,7 +913,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"116_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/161882/irish-gauge\" target=\"_blank\"><img src=\"images/games/116_Irish_Gauge.jpg\" alt=\"Irish Gauge\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/161882/irish-gauge\" target=\"_blank\"><img src=\"images/games/116_irish_gauge.jpg\" alt=\"Irish Gauge\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -967,7 +967,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"50_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/277448/coloma-deluxe-edition\" target=\"_blank\"><img src=\"images/games/50_Coloma.jpg\" alt=\"Coloma: Deluxe Edition\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/277448/coloma-deluxe-edition\" target=\"_blank\"><img src=\"images/games/50_coloma.jpg\" alt=\"Coloma: Deluxe Edition\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1013,7 +1013,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"192_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/121073/panic-lab\" target=\"_blank\"><img src=\"images/games/192_Panic_Lab.jpg\" alt=\"Panic Lab\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/121073/panic-lab\" target=\"_blank\"><img src=\"images/games/192_panic_lab.jpg\" alt=\"Panic Lab\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1059,7 +1059,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"198_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/93493/perigon\" target=\"_blank\"><img src=\"images/games/198_Perigon.jpg\" alt=\"Perigon\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/93493/perigon\" target=\"_blank\"><img src=\"images/games/198_perigon.jpg\" alt=\"Perigon\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1105,7 +1105,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"360_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/274960/point-salad\" target=\"_blank\"><img src=\"images/games/360_Point_Salad.jpg\" alt=\"Point Salad\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/274960/point-salad\" target=\"_blank\"><img src=\"images/games/360_point_salad.jpg\" alt=\"Point Salad\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1151,7 +1151,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"294_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/180040/villages-valeria\" target=\"_blank\"><img src=\"images/games/294_Valeria.jpg\" alt=\"Valeria: Wioski\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/180040/villages-valeria\" target=\"_blank\"><img src=\"images/games/294_valeria.jpg\" alt=\"Valeria: Wioski\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1197,7 +1197,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"77_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/163968/elysium\" target=\"_blank\"><img src=\"images/games/77_Elizjum.jpg\" alt=\"Elysium\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/163968/elysium\" target=\"_blank\"><img src=\"images/games/77_elizjum.jpg\" alt=\"Elysium\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1243,7 +1243,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"227_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/9220/saboteur\" target=\"_blank\"><img src=\"images/games/227_Saboteur.jpg\" alt=\"Sabotażysta\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/9220/saboteur\" target=\"_blank\"><img src=\"images/games/227_saboteur.jpg\" alt=\"Sabotażysta\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1289,7 +1289,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"80_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/199792/everdell\" target=\"_blank\"><img src=\"images/games/80_Everdell.jpg\" alt=\"Everdell\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/199792/everdell\" target=\"_blank\"><img src=\"images/games/80_everdell.jpg\" alt=\"Everdell\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1335,7 +1335,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"196_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/245928/pax-emancipation\" target=\"_blank\"><img src=\"images/games/196_Pax_Em.jpg\" alt=\"Pax Emancipation\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/245928/pax-emancipation\" target=\"_blank\"><img src=\"images/games/196_pax_em.jpg\" alt=\"Pax Emancipation\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1381,7 +1381,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"106_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/199042/harry-potter-hogwarts-battle\" target=\"_blank\"><img src=\"images/games/106_HP.jpg\" alt=\"Harry Potter: Hogwarts Battle\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/199042/harry-potter-hogwarts-battle\" target=\"_blank\"><img src=\"images/games/106_hp.jpg\" alt=\"Harry Potter: Hogwarts Battle\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1435,7 +1435,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"195_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/276498/paris-la-cite-de-la-lumiere\" target=\"_blank\"><img src=\"images/games/195_Paryz_Miasto_Swiatel.jpg\" alt=\"Paryż: Miasto Świateł\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/276498/paris-la-cite-de-la-lumiere\" target=\"_blank\"><img src=\"images/games/195_paryz_miasto_swiatel.jpg\" alt=\"Paryż: Miasto Świateł\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1481,7 +1481,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"327_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/12333/twilight-struggle\" target=\"_blank\"><img src=\"images/games/327_Zimna_W.jpg\" alt=\"Zimna Wojna 1945 - 1989\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/12333/twilight-struggle\" target=\"_blank\"><img src=\"images/games/327_zimna_w.jpg\" alt=\"Zimna Wojna 1945 - 1989\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1527,7 +1527,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"9_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/4098/age-steam\" target=\"_blank\"><img src=\"images/games/9_AoS.jpg\" alt=\"Age of Steam\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/4098/age-steam\" target=\"_blank\"><img src=\"images/games/9_aos.jpg\" alt=\"Age of Steam\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1573,7 +1573,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"130_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/204583/kingdomino\" target=\"_blank\"><img src=\"images/games/130_Kingdomino.jpg\" alt=\"Kingdomino\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/204583/kingdomino\" target=\"_blank\"><img src=\"images/games/130_kingdomino.jpg\" alt=\"Kingdomino\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1619,7 +1619,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"221_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/237182/root\" target=\"_blank\"><img src=\"images/games/221_Root.jpg\" alt=\"Root\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/237182/root\" target=\"_blank\"><img src=\"images/games/221_root.jpg\" alt=\"Root\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1665,7 +1665,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"30_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/224517/brass-birmingham\" target=\"_blank\"><img src=\"images/games/30_Brass_B.jpg\" alt=\"Brass: Birmingham\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/224517/brass-birmingham\" target=\"_blank\"><img src=\"images/games/30_brass_b.jpg\" alt=\"Brass: Birmingham\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1711,7 +1711,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"121_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/5122/charades\" target=\"_blank\"><img src=\"images/games/121_Kalambury.jpg\" alt=\"Kalambury\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/5122/charades\" target=\"_blank\"><img src=\"images/games/121_kalambury.jpg\" alt=\"Kalambury\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1757,7 +1757,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"118_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/8098/jungle-speed\" target=\"_blank\"><img src=\"images/games/118_Jungle_Speed.jpg\" alt=\"Jungle Speed\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/8098/jungle-speed\" target=\"_blank\"><img src=\"images/games/118_jungle_speed.jpg\" alt=\"Jungle Speed\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1803,7 +1803,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"83_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/81453/famiglia\" target=\"_blank\"><img src=\"images/games/83_Famiglia.jpg\" alt=\"Famiglia\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/81453/famiglia\" target=\"_blank\"><img src=\"images/games/83_famiglia.jpg\" alt=\"Famiglia\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1849,7 +1849,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"35_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/144374/once-upon-time-life\" target=\"_blank\"><img src=\"images/games/35_Było_sobie_zycie.jpg\" alt=\"Było sobie życie\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/144374/once-upon-time-life\" target=\"_blank\"><img src=\"images/games/35_bylo_sobie_zycie.jpg\" alt=\"Było sobie życie\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1903,7 +1903,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"225_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/159774/rycerze-i-zamki\" target=\"_blank\"><img src=\"images/games/225_Rycerze_Zamki.jpg\" alt=\"Rycerze i Zamki\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/159774/rycerze-i-zamki\" target=\"_blank\"><img src=\"images/games/225_rycerze_zamki.jpg\" alt=\"Rycerze i Zamki\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1949,7 +1949,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"261_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/157969/sheriff-nottingham\" target=\"_blank\"><img src=\"images/games/261_Szeryf_Nottingham.jpg\" alt=\"Szeryf z Nottingham\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/157969/sheriff-nottingham\" target=\"_blank\"><img src=\"images/games/261_szeryf_nottingham.jpg\" alt=\"Szeryf z Nottingham\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1995,7 +1995,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"322_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/148639/founders-empire\" target=\"_blank\"><img src=\"images/games/322_Zalozyciele_Imperium.jpg\" alt=\"Założyciele Imperium\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/148639/founders-empire\" target=\"_blank\"><img src=\"images/games/322_zalozyciele_imperium.jpg\" alt=\"Założyciele Imperium\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2041,7 +2041,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"212_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/220308/gaia-project\" target=\"_blank\"><img src=\"images/games/212_Projekt_Gaja.jpg\" alt=\"Projekt Gaja\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/220308/gaia-project\" target=\"_blank\"><img src=\"images/games/212_projekt_gaja.jpg\" alt=\"Projekt Gaja\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2087,7 +2087,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"321_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/284083/crew-quest-planet-nine\" target=\"_blank\"><img src=\"images/games/321_Crew.jpg\" alt=\"Załoga: W poszukiwaniu dziewiątej planety\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/284083/crew-quest-planet-nine\" target=\"_blank\"><img src=\"images/games/321_crew.jpg\" alt=\"Załoga: W poszukiwaniu dziewiątej planety\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2133,7 +2133,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"100_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/103343/game-thrones-board-game-second-edition\" target=\"_blank\"><img src=\"images/games/100_GoT.jpg\" alt=\"Gra o Tron\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/103343/game-thrones-board-game-second-edition\" target=\"_blank\"><img src=\"images/games/100_got.jpg\" alt=\"Gra o Tron\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2179,7 +2179,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"105_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/223750/hardback\" target=\"_blank\"><img src=\"images/games/105_Hardback.jpg\" alt=\"Hardback\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/223750/hardback\" target=\"_blank\"><img src=\"images/games/105_hardback.jpg\" alt=\"Hardback\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2225,7 +2225,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"292_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/2223/uno\" target=\"_blank\"><img src=\"images/games/292_Uno.jpg\" alt=\"UNO\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/2223/uno\" target=\"_blank\"><img src=\"images/games/292_uno.jpg\" alt=\"UNO\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2271,7 +2271,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"164_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/266192/wingspan\" target=\"_blank\"><img src=\"images/games/164_Wingspan.jpg\" alt=\"Na skrzydłach\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/266192/wingspan\" target=\"_blank\"><img src=\"images/games/164_wingspan.jpg\" alt=\"Na skrzydłach\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2317,7 +2317,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"120_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/73761/k2\" target=\"_blank\"><img src=\"images/games/120_K2.jpg\" alt=\"K2\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/73761/k2\" target=\"_blank\"><img src=\"images/games/120_k2.jpg\" alt=\"K2\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2371,7 +2371,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"89_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/220877/rajas-ganges\" target=\"_blank\"><img src=\"images/games/89_Ganges.jpg\" alt=\"Ganges\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/220877/rajas-ganges\" target=\"_blank\"><img src=\"images/games/89_ganges.jpg\" alt=\"Ganges\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2417,7 +2417,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"356_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/158899/colt-express\" target=\"_blank\"><img src=\"images/games/356_Colt_Express.jpg\" alt=\"Colt Express\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/158899/colt-express\" target=\"_blank\"><img src=\"images/games/356_colt_express.jpg\" alt=\"Colt Express\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2463,7 +2463,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"280_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/188920/war-mine-board-game\" target=\"_blank\"><img src=\"images/games/280_TWoM.jpg\" alt=\"This War of Mine: Gra planszowa\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/188920/war-mine-board-game\" target=\"_blank\"><img src=\"images/games/280_twom.jpg\" alt=\"This War of Mine: Gra planszowa\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2509,7 +2509,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"117_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/2452/jenga\" target=\"_blank\"><img src=\"images/games/117_Jenga.jpg\" alt=\"Jenga\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/2452/jenga\" target=\"_blank\"><img src=\"images/games/117_jenga.jpg\" alt=\"Jenga\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2555,7 +2555,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"336_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/214887/co-second-chance\" target=\"_blank\"><img src=\"images/games/336_CO2.jpg\" alt=\"CO2: Second Chance\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/214887/co-second-chance\" target=\"_blank\"><img src=\"images/games/336_co2.jpg\" alt=\"CO2: Second Chance\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2601,7 +2601,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"132_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/165722/klask\" target=\"_blank\"><img src=\"images/games/132_Klask.jpg\" alt=\"KLASK\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/165722/klask\" target=\"_blank\"><img src=\"images/games/132_klask.jpg\" alt=\"KLASK\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2647,7 +2647,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"216_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/176396/quadropolis\" target=\"_blank\"><img src=\"images/games/216_Quadropolis.jpg\" alt=\"Quadropolis\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/176396/quadropolis\" target=\"_blank\"><img src=\"images/games/216_quadropolis.jpg\" alt=\"Quadropolis\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2693,7 +2693,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"303_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/171233/big-book-madness\" target=\"_blank\"><img src=\"images/games/303_Wielka_Ksiega.jpg\" alt=\"Wielka Księga Szaleństwa\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/171233/big-book-madness\" target=\"_blank\"><img src=\"images/games/303_wielka_ksiega.jpg\" alt=\"Wielka Księga Szaleństwa\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2739,7 +2739,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"285_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/198836/3-wishes\" target=\"_blank\"><img src=\"images/games/285_Trzy_Zyczenia.jpg\" alt=\"Trzy życzenia\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/198836/3-wishes\" target=\"_blank\"><img src=\"images/games/285_trzy_zyczenia.jpg\" alt=\"Trzy życzenia\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2785,7 +2785,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"142_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/147154/blue-moon-legends\" target=\"_blank\"><img src=\"images/games/142_Legendy_BM.jpg\" alt=\"Legendy Blue Moon\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/147154/blue-moon-legends\" target=\"_blank\"><img src=\"images/games/142_legendy_bm.jpg\" alt=\"Legendy Blue Moon\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
