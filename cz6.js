@@ -14,6 +14,13 @@ var surveyJSON =  {
    "title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 6",
    "elements":[
    {
+				"name": "osoba",
+				"title": "Imię/nick:",
+				"isRequired":true,
+				 "hideNumber": true,
+				"type": "text"
+				},
+   {
         "type":"panel",
         "name":"Exploding_Kittens",
         "title":"Eksplodujące kotki",
