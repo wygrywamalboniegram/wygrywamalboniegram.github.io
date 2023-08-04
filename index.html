@@ -6,27 +6,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://unpkg.com/jquery"></script>
-	<script src="https://unpkg.com/survey-jquery@1.9.42/survey.jquery.min.js"></script>
-	<link href="https://unpkg.com/survey-core@1.9.42/defaultV2.min.css" type="text/css" rel="stylesheet" />
-
-
-    <script src="https://unpkg.com/surveyjs-widgets@1.9.42/surveyjs-widgets.min.js"></script>
-
-    <title>ETAP 1</title>
-	
+	<script src="https://unpkg.com/survey-jquery@1.9.101/survey.jquery.min.js"></script>
+	<link href="https://unpkg.com/survey-core@1.9.101/defaultV2.min.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="./index.css"><script src="https://unpkg.com/easy-autocomplete"></script><link rel="stylesheet" href="https://unpkg.com/easy-autocomplete@1.3.5/dist/easy-autocomplete.css">
+    <script src="https://unpkg.com/surveyjs-widgets@1.9.101/surveyjs-widgets.min.js"></script>
+		
+    <title>Nominacje</title>
   </head>
   <body>
+<!-- Button trigger modal -->
+
 
   <main role="main" class="container">
 
 <div>
-	  <span style="font-family: Arial">
-	  <h1>TOP 50 Gier Wszechczasów (2022) - GŁOSOWANIE (ETAP 2)</h1> 
-	  Sprawdźcie maile ;)
+		<span style="font-family: Arial">
+	  <h1>TOP 50 Gier Wszechczasów (2023) - NOMINACJE</h1> 
+	  Jeżeli nominowana gra podpowiada się po tym, gdy zaczniesz ją wpisywać, oznacza to, że jest już na liście i nie ma potrzeby jej ponownie wprowadzać.
+	  <br><br>Jeżeli chcesz nominować więcej niż 10 gier, przeładuj stronę i wypełnij nominacje ponownie.
+	  <br>
+	  <h4>UWAGA! Adblockery mogą uniemożliwić wysłanie wyników! Dodaj stronę do wyjątków :)</h4>
 	  </span>
+ <div id="surveyElement" style="display:inline-block;width:100%;"></div>
+    <div id="surveyResult"></div>
+    <script type="text/javascript" src="./index.js"></script>
   
-  </main>
+  </main><!-- /.container -->
   
 	
   </body>
