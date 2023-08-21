@@ -18,13 +18,15 @@ var surveyJSON =  {
 				"title": "Imię/nick:",
 				"isRequired":true,
 				"hideNumber": true,
-				"type": "text"
+				"type": "text",
+				"defaultValue": "Bolek"
 				},
 				{
 					"type":"panel",
 					"name":"18XX",
 					"title":"18XX (seria)",
 					"isRequired":true,
+					"visibleIf": "({1} = 'x_last' and {1_nextyear} = 'true')",
 					"questionsOrder": "initial",
 					"showNumber":true,
 					"elements":[
@@ -393,6 +395,7 @@ var surveyJSON =  {
 					"name":"SW_Rebelia",
 					"title":"Star Wars: Rebelia",
 					"isRequired":true,
+					"visibleIf": "({1} = 'x_last' and {1_nextyear} = 'true')",
 					"questionsOrder": "initial",
 					"showNumber":true,
 					"elements":[
