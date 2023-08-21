@@ -31,7 +31,7 @@ var surveyJSON =  {
 					{
 					 "type":"html",
 					 "name":"1_image",
-					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/19/series-18xx\" target=\"_blank\"><img src=\"images/games/1_18xx.jpg\" alt=\"18XX (seria)\" style=\"max-width:95%;\"> </a>"
+					 "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/19/series-18xx\" target=\"_blank\"><img src=\"../images/games/1_18xx.jpg\" alt=\"18XX (seria)\" style=\"max-width:95%;\"> </a>"
 					},
 					{
 					 "type":"imagepicker",
