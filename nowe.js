@@ -14,6 +14,13 @@ var surveyJSON =  {
    "title":"TOP 50 Gier Wszechczasów (2023) - NOWE TYTUŁY",
    "elements":[
    {
+				"name": "osoba",
+				"title": "Imię/nick:",
+				"isRequired":true,
+				 "hideNumber": true,
+				"type": "text"
+				},
+   {
         "type":"panel",
         "name":"Volt",
         "title":"VOLT",
