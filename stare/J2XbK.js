@@ -16,17 +16,17 @@ var surveyJSON =  {
 				{
 				"name": "osoba",
 				"title": "Imię/nick:",
+				"defaultValue": "Bolek",
 				"isRequired":true,
 				"hideNumber": true,
-				"type": "text",
-				"defaultValue": "Bolek"
+				"type": "text"
 				},
 				{
 					"type":"panel",
+					"visibleIf": "!({1} = 'not')",
 					"name":"18XX",
 					"title":"18XX (seria)",
 					"isRequired":true,
-					"visibleIf": "({1} = 'x_last' and {1_nextyear} = 'true')",
 					"questionsOrder": "initial",
 					"showNumber":true,
 					"elements":[
@@ -70,6 +70,7 @@ var surveyJSON =  {
 				  },
 				  {
 					"type":"panel",
+					"visibleIf": "!({268} = 'not')",
 					"name":"Kto_Da_Wiecej",
 					"title":"Kto Da Więcej?",
 					"isRequired":true,
@@ -116,6 +117,7 @@ var surveyJSON =  {
 				  },
 				  {
 					"type":"panel",
+					"visibleIf": "!({189} = 'not')",
 					"name":"Pandemic",
 					"title":"Pandemic (seria)",
 					"isRequired":true,
@@ -162,6 +164,7 @@ var surveyJSON =  {
 				  },
 				  {
 					"type":"panel",
+					"visibleIf": "!({27} = 'not')",
 					"name":"Blackout_HK",
 					"title":"Blackout: Hong Kong",
 					"isRequired":true,
@@ -208,6 +211,7 @@ var surveyJSON =  {
 				  },
 				  {
 					"type":"panel",
+					"visibleIf": "!({299} = 'not')",
 					"name":"Wendake",
 					"title":"Wendake",
 					"isRequired":true,
@@ -254,6 +258,7 @@ var surveyJSON =  {
 				  },
 				  {
 					"type":"panel",
+					"visibleIf": "!({78} = 'not')",
 					"name":"Epoka_Kamienia",
 					"title":"Epoka Kamienia",
 					"isRequired":true,
@@ -300,6 +305,7 @@ var surveyJSON =  {
 				  },
 				  {
 					"type":"panel",
+					"visibleIf": "!({232} = 'not')",
 					"name":"Scotland_Yard",
 					"title":"Scotland Yard",
 					"isRequired":true,
@@ -346,6 +352,7 @@ var surveyJSON =  {
 				  },
 				  {
 					"type":"panel",
+					"visibleIf": "!({2} = 'not')",
 					"name":"5sekund",
 					"title":"5 sekund",
 					"isRequired":true,
@@ -392,10 +399,10 @@ var surveyJSON =  {
 				  },
 				  {
 					"type":"panel",
+					"visibleIf": "!({338} = 'not')",
 					"name":"SW_Rebelia",
 					"title":"Star Wars: Rebelia",
 					"isRequired":true,
-					"visibleIf": "({338} = 'x_last' and {338_nextyear} = 'true')",
 					"questionsOrder": "initial",
 					"showNumber":true,
 					"elements":[
@@ -439,6 +446,7 @@ var surveyJSON =  {
 				  },
 				  {
 					"type":"panel",
+					"visibleIf": "!({82} = 'not')",
 					"name":"EXIT",
 					"title":"EXIT (seria)",
 					"isRequired":true,
@@ -479,20 +487,11 @@ var surveyJSON =  {
 					  "visibleIf": "{82} = 'x'",
 					  "hideNumber": true
 					}
-					
 				   ]
-					
-				  }
-			]
-
-		},
-//page 2		
-		{
-		   "name":"TOP50 Ankieta",
-		   "title":"TOP 50 Gier Wszechczasów (2023)",
-		   "elements":[
-		   {
+				  },
+				{
 				"type":"panel",
+				"visibleIf": "!({348} = 'not')",
 				"name":"Glen_More_II",
 				"title":"Glen More II: Kroniki",
 				"isRequired":true,
@@ -539,6 +538,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({13} = 'not')",
 				"name":"Alhambra",
 				"title":"Alhambra",
 				"isRequired":true,
@@ -585,6 +585,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({248} = 'not')",
 				"name":"Sprawdzian",
 				"title":"Sprawdzian",
 				"isRequired":true,
@@ -631,6 +632,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({156} = 'not')",
 				"name":"Martwa_Zima",
 				"title":"Martwa Zima: Gra Rozdroży",
 				"isRequired":true,
@@ -677,6 +679,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({237} = 'not')",
 				"name":"Detektyw_Doradczy",
 				"title":"Sherlock Holmes: Detektyw doradczy",
 				"isRequired":true,
@@ -723,6 +726,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({110} = 'not')",
 				"name":"ICECOOL",
 				"title":"ICECOOL",
 				"isRequired":true,
@@ -769,6 +773,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({202} = 'not')",
 				"name":"Pizza_XXL",
 				"title":"Pizza XXL",
 				"isRequired":true,
@@ -815,6 +820,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({194} = 'not')",
 				"name":"PartyTura",
 				"title":"PARTYtura",
 				"isRequired":true,
@@ -861,6 +867,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({279} = 'not')",
 				"name":"Walking_Dead",
 				"title":"The Walking Dead: Card Game",
 				"isRequired":true,
@@ -907,6 +914,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({102} = 'not')",
 				"name":"GWT",
 				"title":"Great Western Trail",
 				"isRequired":true,
@@ -951,16 +959,9 @@ var surveyJSON =  {
 			   ]
 				
 			  },
-			  
-		   ]
-		},
-//page 3		
-			{
-		   "name":"TOP50 Ankieta",
-		   "title":"TOP 50 Gier Wszechczasów (2023)",
-		   "elements":[
-		   {
+     		  {
 				"type":"panel",
+				"visibleIf": "!({21} = 'not')",
 				"name":"Bankrut",
 				"title":"Bankrut",
 				"isRequired":true,
@@ -1007,6 +1008,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({182} = 'not')",
 				"name":"OM",
 				"title":"On Mars",
 				"isRequired":true,
@@ -1053,6 +1055,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({170} = 'not')",
 				"name":"Newton",
 				"title":"Newton",
 				"isRequired":true,
@@ -1099,6 +1102,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({33} = 'not')",
 				"name":"Bridge",
 				"title":"Brydż",
 				"isRequired":true,
@@ -1145,6 +1149,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({234} = 'not')",
 				"name":"Scythe",
 				"title":"Scythe",
 				"isRequired":true,
@@ -1191,6 +1196,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({113} = 'not')",
 				"name":"Imperial_2030",
 				"title":"Imperial 2030",
 				"isRequired":true,
@@ -1237,6 +1243,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({267} = 'not')",
 				"name":"Tajniacy",
 				"title":"Tajniacy (seria)",
 				"isRequired":true,
@@ -1283,6 +1290,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({181} = 'not')",
 				"name":"Ogrodek",
 				"title":"Ogródek",
 				"isRequired":true,
@@ -1329,6 +1337,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({23} = 'not')",
 				"name":"Belfort",
 				"title":"Belfort",
 				"isRequired":true,
@@ -1375,6 +1384,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({324} = 'not')",
 				"name":"Zgadnij_Kto",
 				"title":"Zgadnij kto to?",
 				"isRequired":true,
@@ -1419,16 +1429,9 @@ var surveyJSON =  {
 			   ]
 				
 			  },
-			  
-		   ]
-		},
-//page 4
-		{
-		   "name":"TOP50 Ankieta",
-		   "title":"TOP 50 Gier Wszechczasów (2023)",
-		   "elements":[
-		   {
+		     {
 				"type":"panel",
+				"visibleIf": "!({239} = 'not')",
 				"name":"Sigismundus",
 				"title":"Sigismundus Augustus: Dei gratia rex Poloniae",
 				"isRequired":true,
@@ -1475,6 +1478,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({42} = 'not')",
 				"name":"Ciasteczkowe_potworki",
 				"title":"Ciasteczkowe potworki",
 				"isRequired":true,
@@ -1521,6 +1525,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({333} = 'not')",
 				"name":"Tainted_Grail",
 				"title":"Tainted Grail",
 				"isRequired":true,
@@ -1567,6 +1572,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({25} = 'not')",
 				"name":"Black_Angel",
 				"title":"Black Angel",
 				"isRequired":true,
@@ -1613,6 +1619,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({108} = 'not')",
 				"name":"Hobbit",
 				"title":"Hobbit: Gra Karciana",
 				"isRequired":true,
@@ -1659,6 +1666,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({148} = 'not')",
 				"name":"Magazyn51",
 				"title":"Magazyn 51",
 				"isRequired":true,
@@ -1705,6 +1713,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({122} = 'not')",
 				"name":"Thunderstone",
 				"title":"Kamień Gromu",
 				"isRequired":true,
@@ -1751,6 +1760,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({61} = 'not')",
 				"name":"Deep_Sea",
 				"title":"Deep Sea Adventure",
 				"isRequired":true,
@@ -1797,6 +1807,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({190} = 'not')",
 				"name":"Pandemic_Legacy",
 				"title":"Pandemic Legacy (seria)",
 				"isRequired":true,
@@ -1843,6 +1854,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({351} = 'not')",
 				"name":"Podaj_Dalej",
 				"title":"Podaj Dalej",
 				"isRequired":true,
@@ -1887,16 +1899,9 @@ var surveyJSON =  {
 			   ]
 				
 			  },
-			  
-		   ]
-		},
-//page 5	
-		{
-		   "name":"TOP50 Ankieta",
-		   "title":"TOP 50 Gier Wszechczasów (2023)",
-		   "elements":[
 		   {
 				"type":"panel",
+				"visibleIf": "!({127} = 'not')",
 				"name":"Keyflower",
 				"title":"Keyflower",
 				"isRequired":true,
@@ -1943,6 +1948,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({317} = 'not')",
 				"name":"Wysokie_Karciane",
 				"title":"Wysokie Napięcie: Gra karciana",
 				"isRequired":true,
@@ -1989,6 +1995,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({302} = 'not')",
 				"name":"Wiedenski_Lacznik",
 				"title":"Wiedeński Łącznik",
 				"isRequired":true,
@@ -2035,6 +2042,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({66} = 'not')",
 				"name":"Dobble",
 				"title":"Dobble",
 				"isRequired":true,
@@ -2081,6 +2089,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({91} = 'not')",
 				"name":"GSC",
 				"title":"Ganz schön clever",
 				"isRequired":true,
@@ -2127,6 +2136,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({309} = 'not')",
 				"name":"Wladca_Areny",
 				"title":"Władca Areny",
 				"isRequired":true,
@@ -2173,6 +2183,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({128} = 'not')",
 				"name":"Keyforge",
 				"title":"KeyForge: Call of the Archons",
 				"isRequired":true,
@@ -2219,6 +2230,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({197} = 'not')",
 				"name":"Pelny_Kurnik",
 				"title":"Pełny Kurnik",
 				"isRequired":true,
@@ -2265,6 +2277,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({359} = 'not')",
 				"name":"Patchwork",
 				"title":"Patchwork",
 				"isRequired":true,
@@ -2311,6 +2324,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({319} = 'not')",
 				"name":"Wyscig_do_Renu",
 				"title":"Wyścig do Renu",
 				"isRequired":true,
@@ -2355,16 +2369,9 @@ var surveyJSON =  {
 			   ]
 				
 			  },
-			  
-		   ]
-		},
-		//page 6
-		{
-		   "name":"TOP50 Ankieta",
-		   "title":"TOP 50 Gier Wszechczasów (2023)",
-		   "elements":[
 		   {
 				"type":"panel",
+				"visibleIf": "!({59} = 'not')",
 				"name":"Vulgari_Elo",
 				"title":"De Vulgari Eloquentia",
 				"isRequired":true,
@@ -2411,6 +2418,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({278} = 'not')",
 				"name":"Mind",
 				"title":"The Mind",
 				"isRequired":true,
@@ -2457,6 +2465,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({335} = 'not')",
 				"name":"Lisboa",
 				"title":"Lisboa",
 				"isRequired":true,
@@ -2503,6 +2512,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({57} = 'not')",
 				"name":"Cytadela",
 				"title":"Cytadela",
 				"isRequired":true,
@@ -2549,6 +2559,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({158} = 'not')",
 				"name":"Mombasa",
 				"title":"Mombasa",
 				"isRequired":true,
@@ -2595,6 +2606,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({76} = 'not')",
 				"name":"Eldritch",
 				"title":"Eldritch Horror",
 				"isRequired":true,
@@ -2641,6 +2653,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({308} = 'not')",
 				"name":"Wirus",
 				"title":"Wirus",
 				"isRequired":true,
@@ -2687,6 +2700,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({352} = 'not')",
 				"name":"Carnegie",
 				"title":"Carnegie",
 				"isRequired":true,
@@ -2733,6 +2747,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({161} = 'not')",
 				"name":"Montana",
 				"title":"Montana",
 				"isRequired":true,
@@ -2779,6 +2794,7 @@ var surveyJSON =  {
 			  },
 			  {
 				"type":"panel",
+				"visibleIf": "!({38} = 'not')",
 				"name":"Cardline",
 				"title":"Cardline: Dinozaury/Marvel",
 				"isRequired":true,
@@ -2822,24 +2838,10 @@ var surveyJSON =  {
 				
 			   ]
 				
-			  }
-			  
-		   ]
-		},
-//page 1
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
-				"name": "osoba",
-				"title": "Imię/nick:",
-				"isRequired":true,
-				 "hideNumber": true,
-				"type": "text"
-	},
+			  },
    {
         "type":"panel",
+		"visibleIf": "!({172} = 'not')",
         "name":"Norderwind",
         "title":"Norderwind",
         "isRequired":true,
@@ -2886,6 +2888,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({288} = 'not')",
         "name":"1000",
         "title":"Tysiąc",
         "isRequired":true,
@@ -2932,6 +2935,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({7} = 'not')",
         "name":"Adrenalina",
         "title":"Adrenalina",
         "isRequired":true,
@@ -2978,6 +2982,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({163} = 'not')",
         "name":"Na_Ratunek",
         "title":"Na ratunek!",
         "isRequired":true,
@@ -3024,6 +3029,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({273} = 'not')",
         "name":"Teotihuacan",
         "title":"Teotihuacan: Miasto Bogów",
         "isRequired":true,
@@ -3070,6 +3076,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({250} = 'not')",
         "name":"Statki",
         "title":"Statki",
         "isRequired":true,
@@ -3116,6 +3123,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({200} = 'not')",
         "name":"5_Tribes",
         "title":"Pięć Klanów: Dżiny Naqali",
         "isRequired":true,
@@ -3162,6 +3170,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({56} = 'not')",
         "name":"CV",
         "title":"CV",
         "isRequired":true,
@@ -3208,6 +3217,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({98} = 'not')",
         "name":"GH",
         "title":"Gloomhaven",
         "isRequired":true,
@@ -3254,6 +3264,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({62} = 'not')",
         "name":"Descent",
         "title":"Descent",
         "isRequired":true,
@@ -3299,15 +3310,9 @@ var surveyJSON =  {
         
       },
       
-   ]
-},	
-//page 2		
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
    {
         "type":"panel",
+				"visibleIf": "!({174} = 'not')",
         "name":"NWS",
         "title":"Nowy wspaniały świat",
         "isRequired":true,
@@ -3354,6 +3359,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({314} = 'not')",
         "name":"El_Dorado",
         "title":"Wyprawa do El Dorado",
         "isRequired":true,
@@ -3400,6 +3406,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({72} = 'not')",
         "name":"Dungeon_Alliance",
         "title":"Dungeon Alliance",
         "isRequired":true,
@@ -3446,6 +3453,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({167} = 'not')",
         "name":"Nemesis",
         "title":"Nemesis",
         "isRequired":true,
@@ -3492,6 +3500,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({81} = 'not')",
         "name":"Ewolucja",
         "title":"Ewolucja: Pochodzenie gatunków",
         "isRequired":true,
@@ -3538,6 +3547,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({208} = 'not')",
         "name":"Luxtorpeda",
         "title":"Polska Luxtorpeda",
         "isRequired":true,
@@ -3584,6 +3594,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({298} = 'not')",
         "name":"Way_of_the_Panda",
         "title":"Way of the Panda",
         "isRequired":true,
@@ -3630,6 +3641,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({254} = 'not')",
         "name":"Suburbia",
         "title":"Suburbia",
         "isRequired":true,
@@ -3676,6 +3688,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({150} = 'not')",
         "name":"MiM",
         "title":"Magia i Miecz",
         "isRequired":true,
@@ -3722,6 +3735,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({244} = 'not')",
         "name":"Space_Alert",
         "title":"Space Alert",
         "isRequired":true,
@@ -3766,16 +3780,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},	
-//page 3		
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
    {
         "type":"panel",
+				"visibleIf": "!({223} = 'not')",
         "name":"Rummikub",
         "title":"Rummikub",
         "isRequired":true,
@@ -3822,6 +3829,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({358} = 'not')",
         "name":"London",
         "title":"Londyn",
         "isRequired":true,
@@ -3868,6 +3876,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({256} = 'not')",
         "name":"Super_Kartkowka",
         "title":"Super Kartkówka",
         "isRequired":true,
@@ -3914,6 +3923,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({342} = 'not')",
         "name":"Dice_Settlers",
         "title":"Dice Settlers",
         "isRequired":true,
@@ -3960,6 +3970,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({326} = 'not')",
         "name":"ZigZak",
         "title":"ZigZak: Skoki narciarskie",
         "isRequired":true,
@@ -4006,6 +4017,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({19} = 'not')",
         "name":"Aquasphere",
         "title":"Badacze Głębin",
         "isRequired":true,
@@ -4052,6 +4064,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({243} = 'not')",
         "name":"Smart_Ass",
         "title":"Smart Ass",
         "isRequired":true,
@@ -4098,6 +4111,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({67} = 'not')",
         "name":"Dobry_Glina",
         "title":"Dobry Glina Zły Glina",
         "isRequired":true,
@@ -4144,6 +4158,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({323} = 'not')",
         "name":"CoB",
         "title":"Zamki Burgundii",
         "isRequired":true,
@@ -4190,6 +4205,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({347} = 'not')",
         "name":"Startups",
         "title":"Startups",
         "isRequired":true,
@@ -4234,16 +4250,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},		
-//page 4
-{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
    {
         "type":"panel",
+				"visibleIf": "!({209} = 'not')",
         "name":"Potwory_Szafa",
         "title":"Potwory do szafy",
         "isRequired":true,
@@ -4290,6 +4299,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({224} = 'not')",
         "name":"Runewars",
         "title":"Runewars",
         "isRequired":true,
@@ -4336,6 +4346,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({207} = 'not')",
         "name":"Pokolenia",
         "title":"Pokolenia",
         "isRequired":true,
@@ -4382,6 +4393,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({210} = 'not')",
         "name":"Potwory_Tokio",
         "title":"Potwory w Tokio",
         "isRequired":true,
@@ -4428,6 +4440,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({143} = 'not')",
         "name":"Lifeform",
         "title":"Lifeform",
         "isRequired":true,
@@ -4474,6 +4487,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({339} = 'not')",
         "name":"Reavers_Midgard",
         "title":"Reavers of Midgard",
         "isRequired":true,
@@ -4520,6 +4534,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({199} = 'not')",
         "name":"Pedzace_Zolwie",
         "title":"Pędzące żółwie",
         "isRequired":true,
@@ -4566,6 +4581,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({154} = 'not')",
         "name":"Marco_Polo",
         "title":"Marco Polo",
         "isRequired":true,
@@ -4612,6 +4628,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({10} = 'not')",
         "name":"Agricola",
         "title":"Agricola",
         "isRequired":true,
@@ -4658,6 +4675,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({15} = 'not')",
         "name":"Arkwright",
         "title":"Arkwright",
         "isRequired":true,
@@ -4702,16 +4720,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},		
-//page 5	
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
    {
         "type":"panel",
+				"visibleIf": "!({283} = 'not')",
         "name":"Trismegistus",
         "title":"Trismegistus: Ostateczna formuła",
         "isRequired":true,
@@ -4758,6 +4769,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({123} = 'not')",
         "name":"Kanban",
         "title":"Kanban",
         "isRequired":true,
@@ -4804,6 +4816,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({272} = 'not')",
         "name":"Teomachia",
         "title":"Teomachia",
         "isRequired":true,
@@ -4850,6 +4863,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({149} = 'not')",
         "name":"MK",
         "title":"Mage Knight: Gra Planszowa",
         "isRequired":true,
@@ -4896,6 +4910,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({58} = 'not')",
         "name":"TtA",
         "title":"Cywilizacja: Poprzez Wieki",
         "isRequired":true,
@@ -4942,6 +4957,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({134} = 'not')",
         "name":"Koncept",
         "title":"Koncept",
         "isRequired":true,
@@ -4988,6 +5004,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({63} = 'not')",
         "name":"Detektyw",
         "title":"Detektyw: Kryminalna gra planszowa",
         "isRequired":true,
@@ -5034,6 +5051,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({275} = 'not')",
         "name":"TM",
         "title":"Terraformacja Marsa",
         "isRequired":true,
@@ -5080,6 +5098,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({47} = 'not')",
         "name":"Cluedo",
         "title":"Cluedo",
         "isRequired":true,
@@ -5126,6 +5145,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({70} = 'not')",
         "name":"Dominion",
         "title":"Dominion: Rozdarte Królestwo",
         "isRequired":true,
@@ -5170,16 +5190,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},	
-//page 6
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
    {
         "type":"panel",
+				"visibleIf": "!({175} = 'not')",
         "name":"OMGoods",
         "title":"O mój Zboże!",
         "isRequired":true,
@@ -5226,6 +5239,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({177} = 'not')",
         "name":"Ninja_Camp",
         "title":"Obóz Ninja",
         "isRequired":true,
@@ -5272,6 +5286,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({18} = 'not')",
         "name":"Azul",
         "title":"Azul (seria)",
         "isRequired":true,
@@ -5318,6 +5333,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({166} = 'not')",
         "name":"Nehemiah",
         "title":"Nehemiah",
         "isRequired":true,
@@ -5364,6 +5380,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({74} = 'not')",
         "name":"Eclipse",
         "title":"Eclipse",
         "isRequired":true,
@@ -5410,6 +5427,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({340} = 'not')",
         "name":"WoT_Rush",
         "title":"World of Tanks: Rush",
         "isRequired":true,
@@ -5456,6 +5474,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({264} = 'not')",
         "name":"TIME_Stories",
         "title":"T.I.M.E. Stories",
         "isRequired":true,
@@ -5502,6 +5521,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({97} = 'not')",
         "name":"Gizmos",
         "title":"Gizmos",
         "isRequired":true,
@@ -5548,6 +5568,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({3} = 'not')",
         "name":"51Stan",
         "title":"51. Stan: Master Set",
         "isRequired":true,
@@ -5594,6 +5615,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({301} = 'not')",
         "name":"Wiarusi",
         "title":"Wiarusi",
         "isRequired":true,
@@ -5638,24 +5660,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},
-
-//page 1
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
-				"name": "osoba",
-				"title": "Imię/nick:",
-				"isRequired":true,
-				 "hideNumber": true,
-				"type": "text"
-				},
    {
         "type":"panel",
+				"visibleIf": "!({277} = 'not')",
         "name":"Gallerist",
         "title":"The Gallerist",
         "isRequired":true,
@@ -5702,6 +5709,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({141} = 'not')",
         "name":"LE_Alien",
         "title":"Legendary Encounters: An Alien Deck Building Game",
         "isRequired":true,
@@ -5748,6 +5756,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({193} = 'not')",
         "name":"Pantheon",
         "title":"Pantheon",
         "isRequired":true,
@@ -5794,6 +5803,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({26} = 'not')",
         "name":"Black_Orchestra",
         "title":"Black Orchestra",
         "isRequired":true,
@@ -5840,6 +5850,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({187} = 'not')",
         "name":"Owce_Wypas",
         "title":"Owce na wypasie",
         "isRequired":true,
@@ -5886,6 +5897,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({109} = 'not')",
         "name":"Hotel_Samoa",
         "title":"Hotel Samoa",
         "isRequired":true,
@@ -5932,6 +5944,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({55} = 'not')",
         "name":"Cthulhu_Gloom",
         "title":"Cthulhu Gloom",
         "isRequired":true,
@@ -5978,6 +5991,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({115} = 'not')",
         "name":"Intrepid",
         "title":"Intrepid",
         "isRequired":true,
@@ -6024,6 +6038,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({263} = 'not')",
         "name":"Swiatowy_Konflikt",
         "title":"Światowy Konflikt",
         "isRequired":true,
@@ -6070,6 +6085,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({160} = 'not')",
         "name":"Monopoly_Gamer",
         "title":"Monopoly Gamer",
         "isRequired":true,
@@ -6115,15 +6131,9 @@ var surveyJSON =  {
         
       },
       
-   ]
-},	
-//page 2		
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
    {
         "type":"panel",
+				"visibleIf": "!({84} = 'not')",
         "name":"Fasolki",
         "title":"Fasolki (Bohnanza)",
         "isRequired":true,
@@ -6170,6 +6180,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({345} = 'not')",
         "name":"Boze_Igrzysko",
         "title":"Boże Igrzysko",
         "isRequired":true,
@@ -6216,6 +6227,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({5} = 'not')",
         "name":"7W_Duel",
         "title":"7 Cudów Świata: Pojedynek",
         "isRequired":true,
@@ -6262,6 +6274,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({337} = 'not')",
         "name":"Raiders_Scythia",
         "title":"Najeźdźcy ze Scytii",
         "isRequired":true,
@@ -6308,6 +6321,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({180} = 'not')",
         "name":"Ognisty_Podmuch",
         "title":"Ognisty Podmuch",
         "isRequired":true,
@@ -6354,6 +6368,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({165} = 'not')",
         "name":"For_Sale",
         "title":"Na sprzedaż",
         "isRequired":true,
@@ -6400,6 +6415,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({215} = 'not')",
         "name":"Pulsar",
         "title":"Pulsar 2849",
         "isRequired":true,
@@ -6446,6 +6462,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({325} = 'not')",
         "name":"ZhanGuo",
         "title":"ZhanGuo",
         "isRequired":true,
@@ -6492,6 +6509,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({284} = 'not')",
         "name":"Troyes",
         "title":"Troyes",
         "isRequired":true,
@@ -6538,6 +6556,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({24} = 'not')",
         "name":"Bitwy_Westeros",
         "title":"Bitwy Westeros",
         "isRequired":true,
@@ -6583,15 +6602,9 @@ var surveyJSON =  {
         
       },
       
-   ]
-},	
-//page 3		
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
    {
         "type":"panel",
+				"visibleIf": "!({138} = 'not')",
         "name":"Cosa_Nostra",
         "title":"La Cosa Nostra",
         "isRequired":true,
@@ -6638,6 +6651,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({60} = 'not')",
         "name":"Decrypto",
         "title":"Decrypto",
         "isRequired":true,
@@ -6684,6 +6698,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({238} = 'not')",
         "name":"Siedem",
         "title":"Siedem",
         "isRequired":true,
@@ -6730,6 +6745,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({159} = 'not')",
         "name":"Monopoly",
         "title":"Monopoly",
         "isRequired":true,
@@ -6776,6 +6792,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({201} = 'not')",
         "name":"Pipeline",
         "title":"Pipeline",
         "isRequired":true,
@@ -6822,6 +6839,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({305} = 'not')",
         "name":"Wielka_Wystawa_Dinozaurow",
         "title":"Wielka Wystawa Dinozaurów",
         "isRequired":true,
@@ -6868,6 +6886,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({300} = 'not')",
         "name":"Western_Legends",
         "title":"Western Legends",
         "isRequired":true,
@@ -6914,6 +6933,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({253} = 'not')",
         "name":"Stronghold",
         "title":"Stronghold",
         "isRequired":true,
@@ -6960,6 +6980,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({297} = 'not')",
         "name":"Waleczne_Piksele",
         "title":"Waleczne piksele",
         "isRequired":true,
@@ -7006,6 +7027,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({92} = 'not')",
         "name":"Gejsze",
         "title":"Gejsze",
         "isRequired":true,
@@ -7051,15 +7073,9 @@ var surveyJSON =  {
         
       },
       
-   ]
-},		
-//page 4
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
    {
         "type":"panel",
+				"visibleIf": "!({310} = 'not')",
         "name":"LotR_Confrontation",
         "title":"Władca Pierścieni: Konfrontacja",
         "isRequired":true,
@@ -7106,6 +7122,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({147} = 'not')",
         "name":"Machina",
         "title":"Machina",
         "isRequired":true,
@@ -7152,6 +7169,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({39} = 'not')",
         "name":"Cashflow",
         "title":"Cashflow",
         "isRequired":true,
@@ -7198,6 +7216,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({114} = 'not')",
         "name":"Innowacje",
         "title":"Innowacje",
         "isRequired":true,
@@ -7244,6 +7263,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({111} = 'not')",
         "name":"iKNOW",
         "title":"iKNOW",
         "isRequired":true,
@@ -7290,6 +7310,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({145} = 'not')",
         "name":"Lords_of_War",
         "title":"Lords of War: Władcy Wojny",
         "isRequired":true,
@@ -7336,6 +7357,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({152} = 'not')",
         "name":"MtG",
         "title":"Magic the Gathering",
         "isRequired":true,
@@ -7382,6 +7404,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({54} = 'not')",
         "name":"Cry_Havoc",
         "title":"Cry Havoc",
         "isRequired":true,
@@ -7428,6 +7451,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({52} = 'not')",
         "name":"Concordia",
         "title":"Concordia",
         "isRequired":true,
@@ -7474,6 +7498,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({95} = 'not')",
         "name":"Gierki_Malzenskie",
         "title":"Gierki Małżeńskie",
         "isRequired":true,
@@ -7518,16 +7543,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},	
-//page 5	
-{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
    {
         "type":"panel",
+				"visibleIf": "!({265} = 'not')",
         "name":"Taboo",
         "title":"Taboo",
         "isRequired":true,
@@ -7574,6 +7592,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({276} = 'not')",
         "name":"7th_Continent",
         "title":"The 7th Continent",
         "isRequired":true,
@@ -7620,6 +7639,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({245} = 'not')",
         "name":"Spadajace_Malpki",
         "title":"Spadające Małpki",
         "isRequired":true,
@@ -7666,6 +7686,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({219} = 'not')",
         "name":"Robinson",
         "title":"Robinson Crusoe: Przygoda na przeklętej wyspie",
         "isRequired":true,
@@ -7712,6 +7733,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({64} = 'not')",
         "name":"Dice_Brewing",
         "title":"Dice Brewing",
         "isRequired":true,
@@ -7758,6 +7780,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({99} = 'not')",
         "name":"Goa",
         "title":"Goa",
         "isRequired":true,
@@ -7804,6 +7827,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({240} = 'not')",
         "name":"Skip-Bo",
         "title":"Skipbo",
         "isRequired":true,
@@ -7850,6 +7874,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({107} = 'not')",
         "name":"HP_2P",
         "title":"Harry Potter: Hogwarts Battle - Obrona przed czarną magią",
         "isRequired":true,
@@ -7896,6 +7921,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({65} = 'not')",
         "name":"Dixit",
         "title":"Dixit",
         "isRequired":true,
@@ -7942,6 +7968,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({87} = 'not')",
         "name":"Flickem_Up",
         "title":"Flick'em Up!: Dzika strzelanka",
         "isRequired":true,
@@ -7986,16 +8013,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},		
-//page 6
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+         {
         "type":"panel",
+				"visibleIf": "!({103} = 'not')",
         "name":"Grzybobranie",
         "title":"Grzybobranie",
         "isRequired":true,
@@ -8042,6 +8062,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({364} = 'not')",
         "name":"Dungeon_Fortune",
         "title":"Dungeon of Fortune",
         "isRequired":true,
@@ -8088,6 +8109,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({14} = 'not')",
         "name":"Antarctica",
         "title":"Antarctica",
         "isRequired":true,
@@ -8134,6 +8156,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({274} = 'not')",
         "name":"Terra_M",
         "title":"Terra Mystica",
         "isRequired":true,
@@ -8180,6 +8203,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({169} = 'not')",
         "name":"New_Angeles",
         "title":"New Angeles: Miasto Korporacji",
         "isRequired":true,
@@ -8226,6 +8250,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({350} = 'not')",
         "name":"Pax_Pamir2",
         "title":"Pax Pamir: Second Edition",
         "isRequired":true,
@@ -8272,6 +8297,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({258} = 'not')",
         "name":"Szachy",
         "title":"Szachy",
         "isRequired":true,
@@ -8318,6 +8344,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({262} = 'not')",
         "name":"Shogun",
         "title":"Szogun",
         "isRequired":true,
@@ -8364,6 +8391,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({94} = 'not')",
         "name":"Getaway_Driver",
         "title":"Getaway Driver",
         "isRequired":true,
@@ -8410,6 +8438,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({137} = 'not')",
         "name":"Ksiestwo",
         "title":"Księstwo",
         "isRequired":true,
@@ -8454,23 +8483,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},
-//page 1
-		{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
-				"name": "osoba",
-				"title": "Imię/nick:",
-				"isRequired":true,
-				 "hideNumber": true,
-				"type": "text"
-				},
    {
         "type":"panel",
+				"visibleIf": "!({266} = 'not')",
         "name":"Tajemnicze_Domostwo",
         "title":"Tajemnicze Domostwo",
         "isRequired":true,
@@ -8517,6 +8532,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({112} = 'not')",
         "name":"Imago",
         "title":"Imago",
         "isRequired":true,
@@ -8563,6 +8579,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({45} = 'not')",
         "name":"Clank",
         "title":"Clank! (Brzdęk)",
         "isRequired":true,
@@ -8609,6 +8626,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({153} = 'not')",
         "name":"Maracaibo",
         "title":"Maracaibo",
         "isRequired":true,
@@ -8655,6 +8673,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({40} = 'not')",
         "name":"Charterstone",
         "title":"Charterstone",
         "isRequired":true,
@@ -8701,6 +8720,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({357} = 'not')",
         "name":"Boonlake",
         "title":"Boonlake",
         "isRequired":true,
@@ -8747,6 +8767,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({124} = 'not')",
         "name":"Kartografowie",
         "title":"Kartografowie",
         "isRequired":true,
@@ -8793,6 +8814,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({131} = 'not')",
         "name":"Klany_Kaledonii",
         "title":"Klany Kaledonii",
         "isRequired":true,
@@ -8839,6 +8861,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({96} = 'not')",
         "name":"Gildie_Londynu",
         "title":"Gildie Londynu",
         "isRequired":true,
@@ -8885,6 +8908,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({43} = 'not')",
         "name":"Galaxy_Trucker",
         "title":"Ciężarówką przez Galaktykę",
         "isRequired":true,
@@ -8929,16 +8953,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},
-//page 2		
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+       {
         "type":"panel",
+				"visibleIf": "!({151} = 'not')",
         "name":"Magic_Maze",
         "title":"Magic Maze: Weź i czmychaj",
         "isRequired":true,
@@ -8985,6 +9002,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({343} = 'not')",
         "name":"Boss_Monster",
         "title":"Boss Monster",
         "isRequired":true,
@@ -9031,6 +9049,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({349} = 'not')",
         "name":"Cryptid",
         "title":"Cryptid",
         "isRequired":true,
@@ -9077,6 +9096,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({185} = 'not')",
         "name":"Orlean",
         "title":"Orlean",
         "isRequired":true,
@@ -9123,6 +9143,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({144} = 'not')",
         "name":"Love_Letter",
         "title":"List Miłosny",
         "isRequired":true,
@@ -9169,6 +9190,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({41} = 'not')",
         "name":"Chinczyk",
         "title":"Chińczyk",
         "isRequired":true,
@@ -9215,6 +9237,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({183} = 'not')",
         "name":"Onirim",
         "title":"Onirim",
         "isRequired":true,
@@ -9261,6 +9284,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({233} = 'not')",
         "name":"Scrabble",
         "title":"Scrabble",
         "isRequired":true,
@@ -9307,6 +9331,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({86} = 'not')",
         "name":"Feierabend",
         "title":"Feierabend",
         "isRequired":true,
@@ -9353,6 +9378,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({116} = 'not')",
         "name":"Irish_Gauge",
         "title":"Irish Gauge",
         "isRequired":true,
@@ -9397,16 +9423,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},	
-//page 3		
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({50} = 'not')",
         "name":"Coloma",
         "title":"Coloma: Deluxe Edition",
         "isRequired":true,
@@ -9453,6 +9472,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({192} = 'not')",
         "name":"Panic_Lab",
         "title":"Panic Lab",
         "isRequired":true,
@@ -9499,6 +9519,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({198} = 'not')",
         "name":"Perigon",
         "title":"Perigon",
         "isRequired":true,
@@ -9545,6 +9566,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({360} = 'not')",
         "name":"Point_Salad",
         "title":"Point Salad",
         "isRequired":true,
@@ -9591,6 +9613,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({294} = 'not')",
         "name":"Valeria",
         "title":"Valeria: Wioski",
         "isRequired":true,
@@ -9637,6 +9660,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({77} = 'not')",
         "name":"Elizjum",
         "title":"Elysium",
         "isRequired":true,
@@ -9683,6 +9707,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({227} = 'not')",
         "name":"Saboteur",
         "title":"Sabotażysta",
         "isRequired":true,
@@ -9729,6 +9754,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({80} = 'not')",
         "name":"Everdell",
         "title":"Everdell",
         "isRequired":true,
@@ -9775,6 +9801,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({196} = 'not')",
         "name":"Pax_Em",
         "title":"Pax Emancipation",
         "isRequired":true,
@@ -9821,6 +9848,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({106} = 'not')",
         "name":"HP",
         "title":"Harry Potter: Hogwarts Battle",
         "isRequired":true,
@@ -9865,16 +9893,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},		
-//page 4
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({195} = 'not')",
         "name":"Paryz_Miasto_Swiatel",
         "title":"Paryż: Miasto Świateł",
         "isRequired":true,
@@ -9921,6 +9942,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({327} = 'not')",
         "name":"Zimna_W",
         "title":"Zimna Wojna 1945 - 1989",
         "isRequired":true,
@@ -9967,6 +9989,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({9} = 'not')",
         "name":"AoS",
         "title":"Age of Steam",
         "isRequired":true,
@@ -10013,6 +10036,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({130} = 'not')",
         "name":"Kingdomino",
         "title":"Kingdomino",
         "isRequired":true,
@@ -10059,6 +10083,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({221} = 'not')",
         "name":"Root",
         "title":"Root",
         "isRequired":true,
@@ -10105,6 +10130,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({30} = 'not')",
         "name":"Brass_B",
         "title":"Brass: Birmingham",
         "isRequired":true,
@@ -10151,6 +10177,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({121} = 'not')",
         "name":"Kalambury",
         "title":"Kalambury",
         "isRequired":true,
@@ -10197,6 +10224,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({118} = 'not')",
         "name":"Jungle_Speed",
         "title":"Jungle Speed",
         "isRequired":true,
@@ -10243,6 +10271,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({83} = 'not')",
         "name":"Famiglia",
         "title":"Famiglia",
         "isRequired":true,
@@ -10289,6 +10318,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({35} = 'not')",
         "name":"Było_sobie_zycie",
         "title":"Było sobie życie",
         "isRequired":true,
@@ -10333,16 +10363,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},	
-//page 5	
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({225} = 'not')",
         "name":"Rycerze_Zamki",
         "title":"Rycerze i Zamki",
         "isRequired":true,
@@ -10389,6 +10412,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({261} = 'not')",
         "name":"Szeryf_Nottingham",
         "title":"Szeryf z Nottingham",
         "isRequired":true,
@@ -10435,6 +10459,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({322} = 'not')",
         "name":"Zalozyciele_Imperium",
         "title":"Założyciele Imperium",
         "isRequired":true,
@@ -10481,6 +10506,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({212} = 'not')",
         "name":"Projekt_Gaja",
         "title":"Projekt Gaja",
         "isRequired":true,
@@ -10527,6 +10553,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({321} = 'not')",
         "name":"Crew",
         "title":"Załoga: W poszukiwaniu dziewiątej planety",
         "isRequired":true,
@@ -10573,6 +10600,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({100} = 'not')",
         "name":"GoT",
         "title":"Gra o Tron",
         "isRequired":true,
@@ -10619,6 +10647,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({105} = 'not')",
         "name":"Hardback",
         "title":"Hardback",
         "isRequired":true,
@@ -10665,6 +10694,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({292} = 'not')",
         "name":"Uno",
         "title":"UNO",
         "isRequired":true,
@@ -10711,6 +10741,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({164} = 'not')",
         "name":"Wingspan",
         "title":"Na skrzydłach",
         "isRequired":true,
@@ -10757,6 +10788,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({120} = 'not')",
         "name":"K2",
         "title":"K2",
         "isRequired":true,
@@ -10801,16 +10833,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},	
-//page 6
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({89} = 'not')",
         "name":"Ganges",
         "title":"Ganges",
         "isRequired":true,
@@ -10857,6 +10882,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({356} = 'not')",
         "name":"Colt_Express",
         "title":"Colt Express",
         "isRequired":true,
@@ -10903,6 +10929,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({280} = 'not')",
         "name":"TWoM",
         "title":"This War of Mine: Gra planszowa",
         "isRequired":true,
@@ -10949,6 +10976,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({117} = 'not')",
         "name":"Jenga",
         "title":"Jenga",
         "isRequired":true,
@@ -10995,6 +11023,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({336} = 'not')",
         "name":"CO2",
         "title":"CO2: Second Chance",
         "isRequired":true,
@@ -11041,6 +11070,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({132} = 'not')",
         "name":"Klask",
         "title":"KLASK",
         "isRequired":true,
@@ -11087,6 +11117,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({216} = 'not')",
         "name":"Quadropolis",
         "title":"Quadropolis",
         "isRequired":true,
@@ -11133,6 +11164,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({303} = 'not')",
         "name":"Wielka_Ksiega",
         "title":"Wielka Księga Szaleństwa",
         "isRequired":true,
@@ -11179,6 +11211,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({285} = 'not')",
         "name":"Trzy_Zyczenia",
         "title":"Trzy życzenia",
         "isRequired":true,
@@ -11225,6 +11258,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({142} = 'not')",
         "name":"Legendy_BM",
         "title":"Legendy Blue Moon",
         "isRequired":true,
@@ -11269,24 +11303,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},
-
-//page 1
-		{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
-				"name": "osoba",
-				"title": "Imię/nick:",
-				"isRequired":true,
-				 "hideNumber": true,
-				"type": "text"
-				},
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({179} = 'not')",
         "name":"Odkrycia_LC",
         "title":"Odkrycia: Dzienniki Lewisa i Clarka",
         "isRequired":true,
@@ -11333,6 +11352,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({32} = 'not')",
         "name":"Broom_Service",
         "title":"Broom Service",
         "isRequired":true,
@@ -11379,6 +11399,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({214} = 'not')",
         "name":"Puerto_Rico",
         "title":"Puerto Rico",
         "isRequired":true,
@@ -11425,6 +11446,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({173} = 'not')",
         "name":"Nowe_Pokolenia",
         "title":"Nowe Pokolenia",
         "isRequired":true,
@@ -11471,6 +11493,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({4} = 'not')",
         "name":"7W",
         "title":"7 Cudów Świata",
         "isRequired":true,
@@ -11517,6 +11540,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({146} = 'not')",
         "name":"Lorenzo",
         "title":"Lorenzo il Magnifico",
         "isRequired":true,
@@ -11563,6 +11587,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({228} = 'not')",
         "name":"Sagrada",
         "title":"Sagrada",
         "isRequired":true,
@@ -11609,6 +11634,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({168} = 'not')",
         "name":"Neuroshima_Hex",
         "title":"Neuroshima Hex!",
         "isRequired":true,
@@ -11655,6 +11681,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({140} = 'not')",
         "name":"LE",
         "title":"Leaving Earth",
         "isRequired":true,
@@ -11701,6 +11728,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({226} = 'not')",
         "name":"Rydzyk_Fidzyk",
         "title":"Ryzyk Fizyk",
         "isRequired":true,
@@ -11745,16 +11773,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},
-//page 2		
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({313} = 'not')",
         "name":"Wyprawa_do_Dzungli",
         "title":"Wyprawa do dżungli",
         "isRequired":true,
@@ -11801,6 +11822,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({290} = 'not')",
         "name":"Ubongo_3D",
         "title":"Ubongo 3D",
         "isRequired":true,
@@ -11847,6 +11869,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({316} = 'not')",
         "name":"Wysokie_N",
         "title":"Wysokie Napięcie",
         "isRequired":true,
@@ -11893,6 +11916,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({257} = 'not')",
         "name":"Sushi_Go",
         "title":"Sushi Go!",
         "isRequired":true,
@@ -11939,6 +11963,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({282} = 'not')",
         "name":"Trajan",
         "title":"Trajan",
         "isRequired":true,
@@ -11985,6 +12010,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({16} = 'not')",
         "name":"Atlantyda",
         "title":"Atlantyda",
         "isRequired":true,
@@ -12031,6 +12057,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({328} = 'not')",
         "name":"Zloto_Bohaterow",
         "title":"Złoto Bohaterów",
         "isRequired":true,
@@ -12077,6 +12104,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({366} = 'not')",
         "name":"Ludzie_Kamienie",
         "title":"Ludzie kontra Kamienie",
         "isRequired":true,
@@ -12123,6 +12151,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({186} = 'not')",
         "name":"Catan",
         "title":"Osadnicy z Catanu",
         "isRequired":true,
@@ -12169,6 +12198,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({222} = 'not')",
         "name":"RR",
         "title":"Rosyjskie Koleje",
         "isRequired":true,
@@ -12213,16 +12243,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},	
-//page 3		
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({171} = 'not')",
         "name":"Herbaceous",
         "title":"Niezłe ziółka",
         "isRequired":true,
@@ -12269,6 +12292,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({37} = 'not')",
         "name":"Carcasonne",
         "title":"Carcassonne",
         "isRequired":true,
@@ -12315,6 +12339,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({129} = 'not')",
         "name":"Kingdom_Rush",
         "title":"Kingdom Rush: Rift in Time",
         "isRequired":true,
@@ -12361,6 +12386,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({211} = 'not')",
         "name":"Prehistory",
         "title":"Prehistory",
         "isRequired":true,
@@ -12407,6 +12433,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({287} = 'not')",
         "name":"T&E",
         "title":"Tygrys i Eufrat",
         "isRequired":true,
@@ -12453,6 +12480,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({17} = 'not')",
         "name":"Avalon",
         "title":"Avalon",
         "isRequired":true,
@@ -12499,6 +12527,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({133} = 'not')",
         "name":"Kolejka",
         "title":"Kolejka",
         "isRequired":true,
@@ -12545,6 +12574,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({217} = 'not')",
         "name":"RftG",
         "title":"Race for the Galaxy: Narodziny Imperiów",
         "isRequired":true,
@@ -12591,6 +12621,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({104} = 'not')",
         "name":"Hanabi",
         "title":"Hanabi",
         "isRequired":true,
@@ -12637,6 +12668,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({330} = 'not')",
         "name":"Zelazna_Kurtyna",
         "title":"Żelazna kurtyna",
         "isRequired":true,
@@ -12681,16 +12713,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},		
-//page 4
-{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({101} = 'not')",
         "name":"Gra_Pomylek",
         "title":"Gra pomyłek",
         "isRequired":true,
@@ -12737,6 +12762,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({341} = 'not')",
         "name":"Gutenberg",
         "title":"Gutenberg",
         "isRequired":true,
@@ -12783,6 +12809,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({255} = 'not')",
         "name":"Super_Farmer",
         "title":"Super Farmer",
         "isRequired":true,
@@ -12829,6 +12856,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({162} = 'not')",
         "name":"MS_Batory",
         "title":"MS Batory",
         "isRequired":true,
@@ -12875,6 +12903,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({29} = 'not')",
         "name":"Brainbenders",
         "title":"Brainbenders",
         "isRequired":true,
@@ -12921,6 +12950,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({291} = 'not')",
         "name":"Ucho_Krola",
         "title":"Ucho króla",
         "isRequired":true,
@@ -12967,6 +12997,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({206} = 'not')",
         "name":"Poker",
         "title":"Poker",
         "isRequired":true,
@@ -13013,6 +13044,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({184} = 'not')",
         "name":"Onitama",
         "title":"Onitama",
         "isRequired":true,
@@ -13059,6 +13091,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({306} = 'not')",
         "name":"Wiertla_Skaly",
         "title":"Wiertła, Skały, Minerały",
         "isRequired":true,
@@ -13105,6 +13138,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({68} = 'not')",
         "name":"Egizia",
         "title":"Dolina Królów",
         "isRequired":true,
@@ -13149,16 +13183,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},		
-//page 5	
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({362} = 'not')",
         "name":"Ksiega_Smokow",
         "title":"Księga Smoków",
         "isRequired":true,
@@ -13205,6 +13232,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({203} = 'not')",
         "name":"Pluszowe",
         "title":"Pluszowe opowieści",
         "isRequired":true,
@@ -13251,6 +13279,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({354} = 'not')",
         "name":"Spacer_Burano",
         "title":"Spacer po Burano",
         "isRequired":true,
@@ -13297,6 +13326,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({79} = 'not')",
         "name":"Eurobiznes",
         "title":"Eurobiznes",
         "isRequired":true,
@@ -13343,6 +13373,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({249} = 'not')",
         "name":"Star_Realms",
         "title":"Star Realms",
         "isRequired":true,
@@ -13389,6 +13420,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({271} = 'not')",
         "name":"Tekhenu",
         "title":"Tekhenu: Obelisk Słońca",
         "isRequired":true,
@@ -13435,6 +13467,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({8} = 'not')",
         "name":"Aeons_End",
         "title":"Aeon's End (seria)",
         "isRequired":true,
@@ -13481,6 +13514,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({126} = 'not')",
         "name":"Kawerna",
         "title":"Kawerna: Rolnicy z Jaskiń",
         "isRequired":true,
@@ -13527,6 +13561,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({213} = 'not')",
         "name":"Wielblady",
         "title":"Przebiegłe Wielbłądy",
         "isRequired":true,
@@ -13573,6 +13608,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({235} = 'not')",
         "name":"SHASN",
         "title":"SHASN",
         "isRequired":true,
@@ -13617,16 +13653,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},	
-//page 6
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({311} = 'not')",
         "name":"Nations",
         "title":"Wojna Narodów",
         "isRequired":true,
@@ -13673,6 +13702,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({34} = 'not')",
         "name":"Burgle_Bros",
         "title":"Burgle Bros.",
         "isRequired":true,
@@ -13719,6 +13749,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({90} = 'not')",
         "name":"Gangi_NY",
         "title":"Gangi Nowego Jorku",
         "isRequired":true,
@@ -13765,6 +13796,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({346} = 'not')",
         "name":"Skull",
         "title":"Skull",
         "isRequired":true,
@@ -13811,6 +13843,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({93} = 'not')",
         "name":"Gentes",
         "title":"Gentes",
         "isRequired":true,
@@ -13857,6 +13890,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({286} = 'not')",
         "name":"TI",
         "title":"Twilight Imperium",
         "isRequired":true,
@@ -13903,6 +13937,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({157} = 'not')",
         "name":"Mechs_Minions",
         "title":"Mechs vs. Minions",
         "isRequired":true,
@@ -13949,6 +13984,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({71} = 'not')",
         "name":"Draftozaur",
         "title":"Draftozaur",
         "isRequired":true,
@@ -13995,6 +14031,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({295} = 'not')",
         "name":"Viticulture",
         "title":"Viticulture Essential Edition",
         "isRequired":true,
@@ -14041,6 +14078,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({353} = 'not')",
         "name":"Kolejowy_Szlak",
         "title":"Kolejowy Szlak (seria)",
         "isRequired":true,
@@ -14085,24 +14123,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},
-
-//page 1
-		{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
-				"name": "osoba",
-				"title": "Imię/nick:",
-				"isRequired":true,
-				 "hideNumber": true,
-				"type": "text"
-				},
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({75} = 'not')",
         "name":"Exploding_Kittens",
         "title":"Eksplodujące kotki",
         "isRequired":true,
@@ -14149,6 +14172,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({242} = 'not')",
         "name":"Slup_Ognia",
         "title":"Słup Ognia",
         "isRequired":true,
@@ -14195,6 +14219,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({247} = 'not')",
         "name":"Splendor",
         "title":"Splendor",
         "isRequired":true,
@@ -14241,6 +14266,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({296} = 'not')",
         "name":"W_Roku_Smoka",
         "title":"W roku smoka",
         "isRequired":true,
@@ -14287,6 +14313,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({204} = 'not')",
         "name":"Podwodne_Miasta",
         "title":"Podwodne Miasta",
         "isRequired":true,
@@ -14333,6 +14360,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({251} = 'not')",
         "name":"Statki_Lupy",
         "title":"Statki, łupy, kościotrupy",
         "isRequired":true,
@@ -14379,6 +14407,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({231} = 'not')",
         "name":"Santorini",
         "title":"Santorini",
         "isRequired":true,
@@ -14425,6 +14454,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({176} = 'not')",
         "name":"Obecnosc",
         "title":"Obecność",
         "isRequired":true,
@@ -14471,6 +14501,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({259} = 'not')",
         "name":"Szalona_Misja",
         "title":"Szalona misja",
         "isRequired":true,
@@ -14517,6 +14548,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({51} = 'not')",
         "name":"Compounded",
         "title":"Compounded",
         "isRequired":true,
@@ -14561,16 +14593,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},
-//page 2		
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({178} = 'not')",
         "name":"Odbudowa_Warszawy",
         "title":"Odbudowa Warszawy 1945-1980",
         "isRequired":true,
@@ -14617,6 +14642,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({88} = 'not')",
         "name":"Forum_Trajanum",
         "title":"Forum Trajanum",
         "isRequired":true,
@@ -14663,6 +14689,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({136} = 'not')",
         "name":"Kolko_Krzyzyk",
         "title":"Kółko i Krzyżyk",
         "isRequired":true,
@@ -14709,6 +14736,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({48} = 'not')",
         "name":"Codex",
         "title":"Codex: Starter Set",
         "isRequired":true,
@@ -14755,6 +14783,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({11} = 'not')",
         "name":"Alchemicy",
         "title":"Alchemicy",
         "isRequired":true,
@@ -14801,6 +14830,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({318} = 'not')",
         "name":"Wyspa_Skye",
         "title":"Wyspa Skye",
         "isRequired":true,
@@ -14847,6 +14877,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({361} = 'not')",
         "name":"Boarding",
         "title":"Boarding",
         "isRequired":true,
@@ -14893,6 +14924,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({363} = 'not')",
         "name":"Smoczy_Wyscig",
         "title":"Smoczy Wyścig",
         "isRequired":true,
@@ -14939,6 +14971,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({6} = 'not')",
         "name":"Acquire",
         "title":"Acquire",
         "isRequired":true,
@@ -14985,6 +15018,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({260} = 'not')",
         "name":"Crazy_Carts",
         "title":"Szalone wózki",
         "isRequired":true,
@@ -15029,16 +15063,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},	
-//page 3		
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({220} = 'not')",
         "name":"Roll",
         "title":"Roll for the Galaxy",
         "isRequired":true,
@@ -15085,6 +15112,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({135} = 'not')",
         "name":"Kosmiczna_Misja",
         "title":"Kosmiczna Misja",
         "isRequired":true,
@@ -15131,6 +15159,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({344} = 'not')",
         "name":"FCM",
         "title":"Food Chain Magnate",
         "isRequired":true,
@@ -15177,6 +15206,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({191} = 'not')",
         "name":"Pandemic_Lekarstwo",
         "title":"Pandemic: Lekarstwo",
         "isRequired":true,
@@ -15223,6 +15253,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({331} = 'not')",
         "name":"Cooper_Island",
         "title":"Cooper Island",
         "isRequired":true,
@@ -15269,6 +15300,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({12} = 'not')",
         "name":"Alea_Evangelii",
         "title":"Alea Evangelii",
         "isRequired":true,
@@ -15315,6 +15347,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({334} = 'not')",
         "name":"Unsettled",
         "title":"Unsettled",
         "isRequired":true,
@@ -15361,6 +15394,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({315} = 'not')",
         "name":"Wyrocznia_Delficka",
         "title":"Wyrocznia Delficka",
         "isRequired":true,
@@ -15407,6 +15441,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({218} = 'not')",
         "name":"Rattus",
         "title":"Rattus",
         "isRequired":true,
@@ -15453,6 +15488,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({46} = 'not')",
         "name":"Cloudage",
         "title":"CloudAge",
         "isRequired":true,
@@ -15497,16 +15533,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},		
-//page 4
-{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({241} = 'not')",
         "name":"Sludzy_Ciemnosci",
         "title":"Słudzy ciemności",
         "isRequired":true,
@@ -15553,6 +15582,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({365} = 'not')",
         "name":"Metropolia",
         "title":"Metropolia",
         "isRequired":true,
@@ -15599,6 +15629,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({20} = 'not')",
         "name":"BANG_Dice",
         "title":"BANG! Gra Kościana",
         "isRequired":true,
@@ -15645,6 +15676,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({270} = 'not')",
         "name":"Takie_Zycie",
         "title":"Takie życie",
         "isRequired":true,
@@ -15691,6 +15723,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({252} = 'not')",
         "name":"Story_Cubes",
         "title":"Story Cubes",
         "isRequired":true,
@@ -15737,6 +15770,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({307} = 'not')",
         "name":"Winnica",
         "title":"Winnica",
         "isRequired":true,
@@ -15783,6 +15817,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({49} = 'not')",
         "name":"Coimbra",
         "title":"Coimbra",
         "isRequired":true,
@@ -15829,6 +15864,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({139} = 'not')",
         "name":"Le_Havre",
         "title":"Le Havre",
         "isRequired":true,
@@ -15875,6 +15911,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({229} = 'not')",
         "name":"Saloon",
         "title":"Saloon",
         "isRequired":true,
@@ -15921,6 +15958,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({85} = 'not')",
         "name":"Fauna",
         "title":"Fauna",
         "isRequired":true,
@@ -15965,16 +16003,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},
-//page 5	
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({269} = 'not')",
         "name":"Ark_Nova",
         "title":"Ark Nova",
         "isRequired":true,
@@ -16021,6 +16052,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({22} = 'not')",
         "name":"Barrage",
         "title":"Barrage",
         "isRequired":true,
@@ -16067,6 +16099,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({44} = 'not')",
         "name":"CotBS",
         "title":"City of the Big Shoulders",
         "isRequired":true,
@@ -16113,6 +16146,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({36} = 'not')",
         "name":"Cafe",
         "title":"Café",
         "isRequired":true,
@@ -16159,6 +16193,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({332} = 'not')",
         "name":"Marvel_United",
         "title":"Marvel United (seria)",
         "isRequired":true,
@@ -16205,6 +16240,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({53} = 'not')",
         "name":"Council_of4",
         "title":"Council of 4",
         "isRequired":true,
@@ -16251,6 +16287,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({73} = 'not')",
         "name":"Dyplomacja",
         "title":"Dyplomacja",
         "isRequired":true,
@@ -16297,6 +16334,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({312} = 'not')",
         "name":"TtR",
         "title":"Wsiąść do Pociągu (seria)",
         "isRequired":true,
@@ -16343,6 +16381,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({293} = 'not')",
         "name":"Basniowa_Ucieczka",
         "title":"Unpublished prototype (Baśniowa ucieczka)",
         "isRequired":true,
@@ -16389,6 +16428,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({246} = 'not')",
         "name":"SI",
         "title":"Spirit Island",
         "isRequired":true,
@@ -16433,16 +16473,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},	
-//page 6
-	{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({304} = 'not')",
         "name":"Wielka_Petla",
         "title":"Wielka Pętla",
         "isRequired":true,
@@ -16489,6 +16522,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({329} = 'not')",
         "name":"Zombie_Kidz",
         "title":"Zombie Kidz: Ewolucja",
         "isRequired":true,
@@ -16535,6 +16569,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({320} = 'not')",
         "name":"Yunnan",
         "title":"Yunnan",
         "isRequired":true,
@@ -16581,6 +16616,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({230} = 'not')",
         "name":"Santa_Maria",
         "title":"Santa Maria",
         "isRequired":true,
@@ -16627,6 +16663,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({28} = 'not')",
         "name":"Blood_Rage",
         "title":"Blood Rage",
         "isRequired":true,
@@ -16673,6 +16710,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({119} = 'not')",
         "name":"JL_Hero_Dice",
         "title":"Justice League: Hero Dice (seria)",
         "isRequired":true,
@@ -16719,6 +16757,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({281} = 'not')",
         "name":"Timeline_Polska",
         "title":"Timeline: Polska",
         "isRequired":true,
@@ -16765,6 +16804,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({69} = 'not')",
         "name":"Dominant Species",
         "title":"Dominant Species",
         "isRequired":true,
@@ -16811,6 +16851,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({355} = 'not')",
         "name":"Arnak",
         "title":"Zaginiona Wyspa Arnak",
         "isRequired":true,
@@ -16857,6 +16898,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({289} = 'not')",
         "name":"Tzolkin",
         "title":"Tzol'kin: Kalendarz Majów",
         "isRequired":true,
@@ -16901,16 +16943,9 @@ var surveyJSON =  {
        ]
         
       },
-      
-   ]
-},
-//page 7
-{
-   "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2023)",
-   "elements":[
-   {
+      {
         "type":"panel",
+				"visibleIf": "!({205} = 'not')",
         "name":"DC_Pojedynek",
         "title":"Pojedynek Superbohaterów DC",
         "isRequired":true,
@@ -16957,6 +16992,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({31} = 'not')",
         "name":"Brass_L",
         "title":"Brass: Lancashire",
         "isRequired":true,
@@ -17003,6 +17039,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({155} = 'not')",
         "name":"Marrakech",
         "title":"Marrakech",
         "isRequired":true,
@@ -17049,6 +17086,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({125} = 'not')",
         "name":"Kawerna_2P",
         "title":"Kawerna: Jaskinia Kontra Jaskinia",
         "isRequired":true,
@@ -17095,6 +17133,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({188} = 'not')",
         "name":"Palec_Bozy",
         "title":"Palec Boży",
         "isRequired":true,
@@ -17141,6 +17180,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({236} = 'not')",
         "name":"Sherlock",
         "title":"Sherlock",
         "isRequired":true,
@@ -17187,6 +17227,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({367} = 'not')",
         "name":"Lamaland",
         "title":"Lamaland",
         "isRequired":true,
@@ -17233,6 +17274,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({368} = 'not')",
         "name":"Gloom",
         "title":"Gloom: Gra Niefortunnych Zdarzeń",
         "isRequired":true,
@@ -17279,6 +17321,7 @@ var surveyJSON =  {
       },
       {
         "type":"panel",
+				"visibleIf": "!({369} = 'not')",
         "name":"Mathable_Q",
         "title":"Mathable Quattro",
         "isRequired":true,
