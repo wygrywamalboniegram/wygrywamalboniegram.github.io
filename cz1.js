@@ -7,6 +7,7 @@ var surveyJSON =  {
 	"locale": "pl",
 	"title":"TOP 50 Gier Wszechczasów (2022)",
 	"showProgressBar": "top",
+	"questionsOnPageMode":"questionPerPage",
 	"pages":[
 //page  1
 		{
@@ -2855,16 +2856,7 @@ function sendDataToServer(survey, options) {
 
 
 var survey = new Survey.Model(surveyJSON);
-var odp = $.getJSON("odpowiedzi.json", function(data) {
-    // data zawiera sparsowane dane z pliku JSON
-    survey.data = data;
-}).fail(function(jqxhr, textStatus, error) {
-    // Obsługa błędu w przypadku niepowodzenia wczytania pliku JSON
-    console.log("Wystąpił błąd: " + textStatus + ", " + error);
-});
-//survey.data = JSON.parse("odpowiedzi.json")
-//console.log(survey.data);
-//console.log("test");
+
 $("#surveyElement").Survey({
     model: survey,
     onComplete: sendDataToServer
