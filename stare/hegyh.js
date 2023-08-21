@@ -17401,7 +17401,7 @@ function sendDataToServer(survey, options) {
 
 
 var survey = new Survey.Model(surveyJSON);
-var odp = $.getJSON("xbgkg.json", function(data) {
+var odp = $.getJSON("hegyh.json", function(data) {
     // data zawiera sparsowane dane z pliku JSON
     survey.data = data;
 }).fail(function(jqxhr, textStatus, error) {
