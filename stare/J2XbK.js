@@ -395,7 +395,7 @@ var surveyJSON =  {
 					"name":"SW_Rebelia",
 					"title":"Star Wars: Rebelia",
 					"isRequired":true,
-					"visibleIf": "({1} = 'x_last' and {1_nextyear} = 'true')",
+					"visibleIf": "({338} = 'x_last' and {338_nextyear} = 'true')",
 					"questionsOrder": "initial",
 					"showNumber":true,
 					"elements":[
