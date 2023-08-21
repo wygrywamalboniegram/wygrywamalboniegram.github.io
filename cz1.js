@@ -5,14 +5,13 @@
 
 var surveyJSON =  {
 	"locale": "pl",
-	"title":"TOP 50 Gier Wszechczasów (2022)",
+	"title":"TOP 50 Gier Wszechczasów (2023)",
 	"showProgressBar": "top",
-	"questionsOnPageMode":"questionPerPage",
 	"pages":[
 //page  1
 		{
 			"name":"TOP50 Ankieta",
-			"title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
+			"title":"TOP 50 Gier Wszechczasów (2023) - CZĘŚĆ 1",
 			"elements":[
 				{
 				"name": "osoba",
@@ -487,7 +486,7 @@ var surveyJSON =  {
 //page 2		
 		{
 		   "name":"TOP50 Ankieta",
-		   "title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
+		   "title":"TOP 50 Gier Wszechczasów (2023) - CZĘŚĆ 1",
 		   "elements":[
 		   {
 				"type":"panel",
@@ -955,7 +954,7 @@ var surveyJSON =  {
 //page 3		
 			{
 		   "name":"TOP50 Ankieta",
-		   "title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
+		   "title":"TOP 50 Gier Wszechczasów (2023) - CZĘŚĆ 1",
 		   "elements":[
 		   {
 				"type":"panel",
@@ -1423,7 +1422,7 @@ var surveyJSON =  {
 //page 4
 		{
 		   "name":"TOP50 Ankieta",
-		   "title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
+		   "title":"TOP 50 Gier Wszechczasów (2023) - CZĘŚĆ 1",
 		   "elements":[
 		   {
 				"type":"panel",
@@ -1891,7 +1890,7 @@ var surveyJSON =  {
 //page 5	
 		{
 		   "name":"TOP50 Ankieta",
-		   "title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
+		   "title":"TOP 50 Gier Wszechczasów (2023) - CZĘŚĆ 1",
 		   "elements":[
 		   {
 				"type":"panel",
@@ -2359,7 +2358,7 @@ var surveyJSON =  {
 		//page 6
 		{
 		   "name":"TOP50 Ankieta",
-		   "title":"TOP 50 Gier Wszechczasów (2022) - CZĘŚĆ 1",
+		   "title":"TOP 50 Gier Wszechczasów (2023) - CZĘŚĆ 1",
 		   "elements":[
 		   {
 				"type":"panel",
