@@ -1197,7 +1197,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"377_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/349165/brainbox-harry-potter\" target=\"_blank\"><img src=\"images/games/377_brainBox_hp.jpg\" alt=\"BrainBox: Harry Potter\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/349165/brainbox-harry-potter\" target=\"_blank\"><img src=\"images/games/377_brainbox_hp.jpg\" alt=\"BrainBox: Harry Potter\" style=\"width:500px;\"> </a>"
         },
         {
          "type":"imagepicker",
