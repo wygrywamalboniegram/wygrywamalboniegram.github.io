@@ -17386,12 +17386,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17433,12 +17433,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17480,12 +17480,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17527,12 +17527,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17574,12 +17574,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17621,12 +17621,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17668,12 +17668,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17715,12 +17715,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17762,12 +17762,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17809,12 +17809,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17856,12 +17856,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17903,12 +17903,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17950,12 +17950,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -17997,12 +17997,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18044,12 +18044,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18091,12 +18091,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18138,12 +18138,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18185,12 +18185,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18232,12 +18232,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18279,12 +18279,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18326,12 +18326,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18373,12 +18373,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18420,12 +18420,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18467,12 +18467,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18514,12 +18514,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18561,12 +18561,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18608,12 +18608,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18655,12 +18655,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18702,12 +18702,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18749,12 +18749,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18796,12 +18796,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18843,12 +18843,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18890,12 +18890,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18937,12 +18937,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -18984,12 +18984,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19031,12 +19031,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19078,12 +19078,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19125,12 +19125,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19172,12 +19172,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19219,12 +19219,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19266,12 +19266,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19313,12 +19313,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19360,12 +19360,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19407,12 +19407,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19454,12 +19454,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19501,12 +19501,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19548,12 +19548,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19595,12 +19595,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19642,12 +19642,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19689,12 +19689,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19736,12 +19736,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19783,12 +19783,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
@@ -19830,12 +19830,12 @@ var surveyJSON =  {
          "defaultValue":"x",
          "isRequired":true,
          "choices":[
-          {"value":"t1","imageLink":"images/icons/1_mini.png"},
-          {"value":"t2","imageLink":"images/icons/2_mini.png"},
-          {"value":"t3","imageLink":"images/icons/3_mini.png"},
-         {"value":"t4","imageLink":"images/icons/4_mini.png"},
-          {"value":"t5","imageLink":"images/icons/5_mini.png"},
-          {"value":"x","imageLink":"images/icons/x_mini.png"}
+          {"value":"t1","imageLink":"../images/icons/1_mini.png"},
+          {"value":"t2","imageLink":"../images/icons/2_mini.png"},
+          {"value":"t3","imageLink":"../images/icons/3_mini.png"},
+         {"value":"t4","imageLink":"../images/icons/4_mini.png"},
+          {"value":"t5","imageLink":"../images/icons/5_mini.png"},
+          {"value":"x","imageLink":"../images/icons/x_mini.png"}
          ],
          "imageHeight":50,
          "imageWidth":50
