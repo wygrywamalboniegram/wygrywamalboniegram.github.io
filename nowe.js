@@ -52,7 +52,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "423_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -98,7 +98,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "471_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -144,7 +144,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "426_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -190,7 +190,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "443_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -236,7 +236,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "436_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -282,7 +282,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "425_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -328,7 +328,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "474_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -374,7 +374,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "475_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -420,7 +420,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "446_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -466,7 +466,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "470_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -521,7 +521,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "428_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -567,7 +567,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "431_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -613,7 +613,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "456_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -659,7 +659,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "453_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -705,7 +705,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "451_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -751,7 +751,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "424_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -797,7 +797,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "472_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -843,7 +843,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "464_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -889,7 +889,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "432_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -935,7 +935,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "448_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -990,7 +990,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "435_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1036,7 +1036,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "439_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1082,7 +1082,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "433_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1128,7 +1128,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "467_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1174,7 +1174,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "449_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1220,7 +1220,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "442_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1266,7 +1266,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "460_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1312,7 +1312,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "455_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1358,7 +1358,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "440_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1404,7 +1404,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "447_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1458,7 +1458,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "438_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1504,7 +1504,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "427_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1550,7 +1550,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "434_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1596,7 +1596,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "444_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1642,7 +1642,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "463_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1688,7 +1688,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "465_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1734,7 +1734,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "452_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1780,7 +1780,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "437_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1826,7 +1826,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "477_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1872,7 +1872,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "473_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1926,7 +1926,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "478_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -1972,7 +1972,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "469_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2018,7 +2018,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "459_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2064,7 +2064,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "429_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2110,7 +2110,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "468_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2156,7 +2156,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "457_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2202,7 +2202,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "430_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2248,7 +2248,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "458_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2294,7 +2294,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "445_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2340,7 +2340,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "441_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2394,7 +2394,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "462_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2440,7 +2440,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "461_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2486,7 +2486,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "454_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2532,7 +2532,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "466_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2578,7 +2578,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "450_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
@@ -2624,7 +2624,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
-          "indent": "15",
+          
           "name": "476_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
           "titleLocation": "default",
