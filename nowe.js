@@ -31,7 +31,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"423_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/291183/the-storymasters-tales-weirding-woods-hybrid-rpg\" target=\"_blank\"><img src=\"images/games/423_dziwnolas.jpg\" alt=\"Opowieści Baśniomistrza: Tajemnice Dziwnolasu\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/291183/the-storymasters-tales-weirding-woods-hybrid-rpg\" target=\"_blank\"><img src=\"images/games/423_dziwnolas.jpg\" alt=\"Opowieści Baśniomistrza: Tajemnice Dziwnolasu\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -77,7 +77,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"471_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/359878/splito\" target=\"_blank\"><img src=\"images/games/471_splito.jpg\" alt=\"Splito\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/359878/splito\" target=\"_blank\"><img src=\"images/games/471_splito.jpg\" alt=\"Splito\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -123,7 +123,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"426_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/386831/pigs-on-trampolines\" target=\"_blank\"><img src=\"images/games/426_pigs.jpg\" alt=\"Świnie na trampolinie\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/386831/pigs-on-trampolines\" target=\"_blank\"><img src=\"images/games/426_pigs.jpg\" alt=\"Świnie na trampolinie\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -169,7 +169,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"443_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/304510/pampero\" target=\"_blank\"><img src=\"images/games/443_pampero.jpg\" alt=\"Pampero\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/304510/pampero\" target=\"_blank\"><img src=\"images/games/443_pampero.jpg\" alt=\"Pampero\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -215,7 +215,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"436_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/216600/fantastic-factories\" target=\"_blank\"><img src=\"images/games/436_ff.jpg\" alt=\"Fantastyczne Fabryki\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/216600/fantastic-factories\" target=\"_blank\"><img src=\"images/games/436_ff.jpg\" alt=\"Fantastyczne Fabryki\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -261,7 +261,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"425_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/370984/tracks-siren-bay\" target=\"_blank\"><img src=\"images/games/425_tracks.jpg\" alt=\"Tracks. Dźwiękowa gra detektywistyczna\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/370984/tracks-siren-bay\" target=\"_blank\"><img src=\"images/games/425_tracks.jpg\" alt=\"Tracks. Dźwiękowa gra detektywistyczna\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -307,7 +307,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"474_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/351913/tiletum\" target=\"_blank\"><img src=\"images/games/474_tiletum.jpg\" alt=\"Tiletum\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/351913/tiletum\" target=\"_blank\"><img src=\"images/games/474_tiletum.jpg\" alt=\"Tiletum\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -353,7 +353,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"475_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/366013/heat-pedal-to-the-metal\" target=\"_blank\"><img src=\"images/games/475_turbo.jpg\" alt=\"Turbo\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/366013/heat-pedal-to-the-metal\" target=\"_blank\"><img src=\"images/games/475_turbo.jpg\" alt=\"Turbo\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -399,7 +399,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"446_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/305682/rolling-realms\" target=\"_blank\"><img src=\"images/games/446_rolling_realms.jpg\" alt=\"Rolling Realms\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/305682/rolling-realms\" target=\"_blank\"><img src=\"images/games/446_rolling_realms.jpg\" alt=\"Rolling Realms\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -445,7 +445,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"470_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/40692/small-world\" target=\"_blank\"><img src=\"images/games/470_small_world.jpg\" alt=\"Small World\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/40692/small-world\" target=\"_blank\"><img src=\"images/games/470_small_world.jpg\" alt=\"Small World\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -500,7 +500,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"428_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/56513/series-50-clues\" target=\"_blank\"><img src=\"images/games/428_50_clues.jpg\" alt=\"50 Clues (seria)\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgamefamily/56513/series-50-clues\" target=\"_blank\"><img src=\"images/games/428_50_clues.jpg\" alt=\"50 Clues (seria)\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -546,7 +546,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"431_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/295607/canopy\" target=\"_blank\"><img src=\"images/games/431_canopy.jpg\" alt=\"Amazonia\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/295607/canopy\" target=\"_blank\"><img src=\"images/games/431_canopy.jpg\" alt=\"Amazonia\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -592,7 +592,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"456_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/285105/court-of-the-dead-dark-harvest\" target=\"_blank\"><img src=\"images/games/456_court_dead.jpg\" alt=\"Court of the Dead: Dark Harvest\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/285105/court-of-the-dead-dark-harvest\" target=\"_blank\"><img src=\"images/games/456_court_dead.jpg\" alt=\"Court of the Dead: Dark Harvest\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -638,7 +638,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"453_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/150783/antidote\" target=\"_blank\"><img src=\"images/games/453_antidotum.jpg\" alt=\"Antidotum\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/150783/antidote\" target=\"_blank\"><img src=\"images/games/453_antidotum.jpg\" alt=\"Antidotum\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -684,7 +684,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"451_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/337627/voidfall\" target=\"_blank\"><img src=\"images/games/451_voidfall.jpg\" alt=\"Voidfall\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/337627/voidfall\" target=\"_blank\"><img src=\"images/games/451_voidfall.jpg\" alt=\"Voidfall\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -730,7 +730,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"424_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/294514/5-minute-mystery\" target=\"_blank\"><img src=\"images/games/424_5-min_mystery.jpg\" alt=\"Tajemnica w 5 minut: Muzeum Wszystkiego\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/294514/5-minute-mystery\" target=\"_blank\"><img src=\"images/games/424_5-min_mystery.jpg\" alt=\"Tajemnica w 5 minut: Muzeum Wszystkiego\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -776,7 +776,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"472_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/123570/strike\" target=\"_blank\"><img src=\"images/games/472_strike.jpg\" alt=\"Strike\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/123570/strike\" target=\"_blank\"><img src=\"images/games/472_strike.jpg\" alt=\"Strike\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -822,7 +822,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"464_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/391163/forest-shuffle\" target=\"_blank\"><img src=\"images/games/464_forest_shuffle.jpg\" alt=\"Leśne Rozdanie\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/391163/forest-shuffle\" target=\"_blank\"><img src=\"images/games/464_forest_shuffle.jpg\" alt=\"Leśne Rozdanie\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -868,7 +868,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"432_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/267370/cities-skylines-the-board-game\" target=\"_blank\"><img src=\"images/games/432_cities_skylines.jpg\" alt=\"Cities: Skylines – The Board Game\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/267370/cities-skylines-the-board-game\" target=\"_blank\"><img src=\"images/games/432_cities_skylines.jpg\" alt=\"Cities: Skylines – The Board Game\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -914,7 +914,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"448_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/246684/smartphone-inc\" target=\"_blank\"><img src=\"images/games/448_smartphone.jpg\" alt=\"Smartphone Inc.\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/246684/smartphone-inc\" target=\"_blank\"><img src=\"images/games/448_smartphone.jpg\" alt=\"Smartphone Inc.\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -969,7 +969,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"435_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/269210/twice-as-clever\" target=\"_blank\"><img src=\"images/games/435_duze_sumy.jpg\" alt=\"Duże Sumy\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/269210/twice-as-clever\" target=\"_blank\"><img src=\"images/games/435_duze_sumy.jpg\" alt=\"Duże Sumy\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1015,7 +1015,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"439_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/373106/sky-team\" target=\"_blank\"><img src=\"images/games/439_sky_team.jpg\" alt=\"Halo Wieża\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/373106/sky-team\" target=\"_blank\"><img src=\"images/games/439_sky_team.jpg\" alt=\"Halo Wieża\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1061,7 +1061,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"433_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/253344/cthulhu-death-may-die\" target=\"_blank\"><img src=\"images/games/433_cthulhu_dmd.jpg\" alt=\"Cthulhu: Death May Die\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/253344/cthulhu-death-may-die\" target=\"_blank\"><img src=\"images/games/433_cthulhu_dmd.jpg\" alt=\"Cthulhu: Death May Die\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1107,7 +1107,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"467_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/351040/ready-set-bet\" target=\"_blank\"><img src=\"images/games/467_ready_set_bet.jpg\" alt=\"Poszły Konie\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/351040/ready-set-bet\" target=\"_blank\"><img src=\"images/games/467_ready_set_bet.jpg\" alt=\"Poszły Konie\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1153,7 +1153,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"449_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/165876/spike\" target=\"_blank\"><img src=\"images/games/449_spike.jpg\" alt=\"Spike\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/165876/spike\" target=\"_blank\"><img src=\"images/games/449_spike.jpg\" alt=\"Spike\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1199,7 +1199,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"442_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/319966/the-king-is-dead-second-edition\" target=\"_blank\"><img src=\"images/games/442_king_dead.jpg\" alt=\"The King Is Dead: Druga Edycja\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/319966/the-king-is-dead-second-edition\" target=\"_blank\"><img src=\"images/games/442_king_dead.jpg\" alt=\"The King Is Dead: Druga Edycja\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1245,7 +1245,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"460_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/93/el-grande\" target=\"_blank\"><img src=\"images/games/460_el_grande.jpg\" alt=\"El Grande\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/93/el-grande\" target=\"_blank\"><img src=\"images/games/460_el_grande.jpg\" alt=\"El Grande\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1291,7 +1291,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"455_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/43111/chaos-in-the-old-world\" target=\"_blank\"><img src=\"images/games/455_gniot.jpg\" alt=\"Chaos w Starym Świecie\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/43111/chaos-in-the-old-world\" target=\"_blank\"><img src=\"images/games/455_gniot.jpg\" alt=\"Chaos w Starym Świecie\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1337,7 +1337,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"440_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/347305/inventions-evolution-of-ideas\" target=\"_blank\"><img src=\"images/games/440_inventions.jpg\" alt=\"Inventions: Evolution of Ideas\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/347305/inventions-evolution-of-ideas\" target=\"_blank\"><img src=\"images/games/440_inventions.jpg\" alt=\"Inventions: Evolution of Ideas\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1383,7 +1383,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"447_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/339614/shinkansen-zero-kei\" target=\"_blank\"><img src=\"images/games/447_shinkansen.jpg\" alt=\"Shinkansen: Zero-Kei\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/339614/shinkansen-zero-kei\" target=\"_blank\"><img src=\"images/games/447_shinkansen.jpg\" alt=\"Shinkansen: Zero-Kei\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1437,7 +1437,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"438_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/258308/fuji\" target=\"_blank\"><img src=\"images/games/438_fuji.jpg\" alt=\"Fuji\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/258308/fuji\" target=\"_blank\"><img src=\"images/games/438_fuji.jpg\" alt=\"Fuji\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1483,7 +1483,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"427_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/207830/5-minute-dungeon\" target=\"_blank\"><img src=\"images/games/427_5-min_dungeon.jpg\" alt=\"5-minute Dungeon\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/207830/5-minute-dungeon\" target=\"_blank\"><img src=\"images/games/427_5-min_dungeon.jpg\" alt=\"5-minute Dungeon\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1529,7 +1529,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"434_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/303553/skulls-of-sedlec\" target=\"_blank\"><img src=\"images/games/434_czaszki.jpg\" alt=\"Czaszki z Sedlec\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/303553/skulls-of-sedlec\" target=\"_blank\"><img src=\"images/games/434_czaszki.jpg\" alt=\"Czaszki z Sedlec\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1575,7 +1575,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"444_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/332686/john-company-second-edition\" target=\"_blank\"><img src=\"images/games/444_john_company.jpg\" alt=\"John Company: Druga Edycja\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/332686/john-company-second-edition\" target=\"_blank\"><img src=\"images/games/444_john_company.jpg\" alt=\"John Company: Druga Edycja\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1621,7 +1621,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"463_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/1219/labyrinth\" target=\"_blank\"><img src=\"images/games/463_labyrinth.jpg\" alt=\"Labyrinth\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/1219/labyrinth\" target=\"_blank\"><img src=\"images/games/463_labyrinth.jpg\" alt=\"Labyrinth\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1667,7 +1667,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"465_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/387378/mlem-space-agency\" target=\"_blank\"><img src=\"images/games/465_mlem.jpg\" alt=\"MLEM: Agencja kosmiczna\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/387378/mlem-space-agency\" target=\"_blank\"><img src=\"images/games/465_mlem.jpg\" alt=\"MLEM: Agencja kosmiczna\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1713,7 +1713,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"452_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/280480/crystal-palace\" target=\"_blank\"><img src=\"images/games/452_crystal_palace.jpg\" alt=\"Crystal Palace\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/280480/crystal-palace\" target=\"_blank\"><img src=\"images/games/452_crystal_palace.jpg\" alt=\"Crystal Palace\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1759,7 +1759,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"437_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/358737/leviathan-wilds\" target=\"_blank\"><img src=\"images/games/437_leviathan.jpg\" alt=\"Leviathan Wilds\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/358737/leviathan-wilds\" target=\"_blank\"><img src=\"images/games/437_leviathan.jpg\" alt=\"Leviathan Wilds\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1805,7 +1805,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"477_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/323262/velonimo\" target=\"_blank\"><img src=\"images/games/477_velonimo.jpg\" alt=\"Velonimo: Zwierzę na rowerze\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/323262/velonimo\" target=\"_blank\"><img src=\"images/games/477_velonimo.jpg\" alt=\"Velonimo: Zwierzę na rowerze\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1851,7 +1851,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"473_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/244521/the-quacks-of-quedlinburg\" target=\"_blank\"><img src=\"images/games/473_szarlatani.jpg\" alt=\"Szarlatani z Pasikurowic\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/244521/the-quacks-of-quedlinburg\" target=\"_blank\"><img src=\"images/games/473_szarlatani.jpg\" alt=\"Szarlatani z Pasikurowic\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1905,7 +1905,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"478_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/331106/the-witcher-old-world\" target=\"_blank\"><img src=\"images/games/478_witcher.jpg\" alt=\"Wiedźmin: Stary Świat\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/331106/the-witcher-old-world\" target=\"_blank\"><img src=\"images/games/478_witcher.jpg\" alt=\"Wiedźmin: Stary Świat\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1951,7 +1951,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"469_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/2655/hive\" target=\"_blank\"><img src=\"images/games/469_hive.jpg\" alt=\"Rój\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/2655/hive\" target=\"_blank\"><img src=\"images/games/469_hive.jpg\" alt=\"Rój\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -1997,7 +1997,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"459_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/339214/no-mercy\" target=\"_blank\"><img src=\"images/games/459_gluty.jpg\" alt=\"Gluty\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/339214/no-mercy\" target=\"_blank\"><img src=\"images/games/459_gluty.jpg\" alt=\"Gluty\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2043,7 +2043,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"429_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/383064/ai-space-puzzle\" target=\"_blank\"><img src=\"images/games/429_ai.jpg\" alt=\"AI Space Puzzle\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/383064/ai-space-puzzle\" target=\"_blank\"><img src=\"images/games/429_ai.jpg\" alt=\"AI Space Puzzle\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2089,7 +2089,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"468_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/314088/agropolis\" target=\"_blank\"><img src=\"images/games/468_ranczer.jpg\" alt=\"Ranczer\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/314088/agropolis\" target=\"_blank\"><img src=\"images/games/468_ranczer.jpg\" alt=\"Ranczer\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2135,7 +2135,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"457_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/348073/crescent-moon\" target=\"_blank\"><img src=\"images/games/457_crescent.jpg\" alt=\"Crescent Moon\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/348073/crescent-moon\" target=\"_blank\"><img src=\"images/games/457_crescent.jpg\" alt=\"Crescent Moon\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2181,7 +2181,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"430_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/342444/black-rose-wars-rebirth\" target=\"_blank\"><img src=\"images/games/430_brw.jpg\" alt=\"Black Rose Wars: Odrodzenie\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/342444/black-rose-wars-rebirth\" target=\"_blank\"><img src=\"images/games/430_brw.jpg\" alt=\"Black Rose Wars: Odrodzenie\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2227,7 +2227,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"458_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/370591/dorfromantik-the-board-game\" target=\"_blank\"><img src=\"images/games/458_dorfromantik.jpg\" alt=\"Dorfromantik: The Board Game\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/370591/dorfromantik-the-board-game\" target=\"_blank\"><img src=\"images/games/458_dorfromantik.jpg\" alt=\"Dorfromantik: The Board Game\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2273,7 +2273,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"445_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/303731/primal-the-awakening\" target=\"_blank\"><img src=\"images/games/445_primal.jpg\" alt=\"Primal: The Awakening\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/303731/primal-the-awakening\" target=\"_blank\"><img src=\"images/games/445_primal.jpg\" alt=\"Primal: The Awakening\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2319,7 +2319,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"441_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/325494/iss-vanguard\" target=\"_blank\"><img src=\"images/games/441_vanguard.jpg\" alt=\"ISS Vanguard\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/325494/iss-vanguard\" target=\"_blank\"><img src=\"images/games/441_vanguard.jpg\" alt=\"ISS Vanguard\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2373,7 +2373,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"462_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/295947/cascadia\" target=\"_blank\"><img src=\"images/games/462_kaskadia.jpg\" alt=\"Kaskadia\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/295947/cascadia\" target=\"_blank\"><img src=\"images/games/462_kaskadia.jpg\" alt=\"Kaskadia\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2419,7 +2419,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"461_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/271088/ishtar-gardens-of-babylon\" target=\"_blank\"><img src=\"images/games/461_ishtar.jpg\" alt=\"Ishtar: Ogrody Babilonu\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/271088/ishtar-gardens-of-babylon\" target=\"_blank\"><img src=\"images/games/461_ishtar.jpg\" alt=\"Ishtar: Ogrody Babilonu\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2465,7 +2465,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"454_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/400314/apiary\" target=\"_blank\"><img src=\"images/games/454_apiary.jpg\" alt=\"Apiary\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/400314/apiary\" target=\"_blank\"><img src=\"images/games/454_apiary.jpg\" alt=\"Apiary\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2511,7 +2511,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"466_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/396790/nucleum\" target=\"_blank\"><img src=\"images/games/466_nucleum.jpg\" alt=\"Nucleum\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/396790/nucleum\" target=\"_blank\"><img src=\"images/games/466_nucleum.jpg\" alt=\"Nucleum\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2557,7 +2557,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"450_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/182704/steamrollers\" target=\"_blank\"><img src=\"images/games/450_steamrollers.jpg\" alt=\"SteamRollers: Maszyny parowe\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/182704/steamrollers\" target=\"_blank\"><img src=\"images/games/450_steamrollers.jpg\" alt=\"SteamRollers: Maszyny parowe\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
@@ -2603,7 +2603,7 @@ var surveyJSON =  {
         {
          "type":"html",
          "name":"476_image",
-         "html":"<a href=\"https://boardgamegeek.com/boardgame/356123/turing-machine\" target=\"_blank\"><img src=\"images/games/476_turing.jpg\" alt=\"Turing Machine\" style=\"width:500px;\"> </a>"
+         "html":"<a href=\"https://boardgamegeek.com/boardgame/356123/turing-machine\" target=\"_blank\"><img src=\"images/games/476_turing.jpg\" alt=\"Turing Machine\" style=\"max-width:95%;\"> </a>"
         },
         {
          "type":"imagepicker",
