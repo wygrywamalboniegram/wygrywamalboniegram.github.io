@@ -52,6 +52,7 @@ var surveyJSON =  {
         },
         {
           "type": "boolean",
+		  
           "indent": "15",
           "name": "205_nextyear",
           "title": "Chcesz ocenić tę grę za rok?",
