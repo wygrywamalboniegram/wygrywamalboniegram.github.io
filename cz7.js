@@ -11,7 +11,7 @@ var surveyJSON =  {
 //page 1
 		{
    "name":"TOP50 Ankieta",
-   "title":"TOP 50 Gier Wszechczasów (2024) - CZĘŚĆ 7",
+   "title":"TOP 50 Gier Wszechczasów (2024) - CZĘŚĆ 6",
    "elements":[
    {
 				"name": "osoba",
@@ -20,7 +20,8 @@ var surveyJSON =  {
 				 "hideNumber": true,
 				"type": "text"
 				},
-   {
+   
+{
         "type":"panel",
         "name":"DC_Pojedynek",
         "title":"Pojedynek Superbohaterów DC",
@@ -2927,7 +2928,6 @@ var surveyJSON =  {
 	]
 	
 };
-
 
 //survey.firstPageIsStarted = true;
 
